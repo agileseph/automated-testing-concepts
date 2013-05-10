@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.6">
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\extension\annotation\AnnotationProcessor.java">
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\extension\annotation\History.java">
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\extension\annotation\TestFixture.java">
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\extension\assertion\CustomAssert.java">
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\extension\logging\CustomLevels.java">
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\extension\logging\DateUtils.java">
+<error line="48" column="43" severity="warning" message="Name &apos;now_2TimeZones&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="62" column="43" severity="warning" message="Name &apos;now_TimeZone_BY&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="70" column="43" severity="warning" message="Name &apos;now_TimeZone_NY&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="93" column="41" severity="warning" message="Name &apos;now_TC&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\extension\logging\DemoLevelFilter.java">
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\extension\logging\TAFLoggerFactory.java">
+<error line="157" column="29" severity="warning" message="The String &quot;----------------------------------------------------------&quot; appears 2 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\JUnitExtension.java">
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\system\TestSystem.java">
+<error line="46" column="29" severity="warning" message="The String &quot;[TEST]        ***********************************************************&quot; appears 3 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="51" column="29" severity="warning" message="The String &quot;[TEST]        ----------------------------------------------------------&quot; appears 2 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\test\AbstractTestCase.java">
+<error line="100" column="19" severity="warning" message="Catching &apos;Exception&apos; is not allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="102" column="38" severity="warning" message="The String &quot;[TEST]        &quot; appears 2 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="104" column="19" severity="warning" message="Catching &apos;Error&apos; is not allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="117" column="19" severity="warning" message="Catching &apos;Exception&apos; is not allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="119" column="19" severity="warning" message="Catching &apos;Error&apos; is not allowed." source="com.puppycrawl.tools.checkstyle.checks.coding.IllegalCatchCheck"/>
+<error line="125" column="29" severity="warning" message="The String &quot;[TEST] &quot; appears 2 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\test\ITestCase.java">
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\test\set\TestSetTexture.java">
+<error line="31" column="38" severity="warning" message="The String &quot;[SET]         ===========================================================&quot; appears 3 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="35" column="38" severity="warning" message="The String &quot;[TEST]_____________________&quot; appears 8 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="37" column="38" severity="warning" message="The String &quot;[TEST]         ...&quot; appears 4 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\test\suite\TestSuiteTexture.java">
+<error line="28" column="1" severity="warning" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="45" column="29" severity="warning" message="The String &quot;[SUITE]       ===========================================================&quot; appears 2 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\test\TCError.java">
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\src\com\organization\automation\project\spice\mix\junit\test\TCException.java">
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_Mix\test\com\organization\automation\project\spice\mix\junit\extension\assertions\CustomAssertUnitTests.java">
+<error line="32" column="21" severity="warning" message="Name &apos;testBigIntegerAssert_smallNumbersCase&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="33" column="54" severity="warning" message="The String &quot;1&quot; appears 4 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="40" column="21" severity="warning" message="Name &apos;testBigIntegerAssert_bigNumbersCase&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="41" column="54" severity="warning" message="The String &quot;2147483648&quot; appears 5 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="48" column="21" severity="warning" message="Name &apos;testBigIntegerAssert_bigNumbersEqualObjectCase&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="60" column="21" severity="warning" message="Name &apos;testBigIntegerAssert_smallNumbersMoreCase&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="62" column="54" severity="warning" message="The String &quot;3&quot; appears 5 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="68" column="21" severity="warning" message="Name &apos;testBigIntegerAssert_smallNumbersLessCase&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="76" column="21" severity="warning" message="Name &apos;testBigIntegerAssert_bigNumbersMoreCase&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="78" column="54" severity="warning" message="The String &quot;3147483648&quot; appears 4 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="84" column="21" severity="warning" message="Name &apos;testBigIntegerAssert_bigNumbersLessCase&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="92" column="21" severity="warning" message="Name &apos;testBigIntegerAssert_mixNumbersMoreCase&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="100" column="21" severity="warning" message="Name &apos;testBigIntegerAssert_mixNumbersLessCase&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="108" column="21" severity="warning" message="Name &apos;testBigIntegerAssert_smallNumbersNegativeCase&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+</checkstyle>

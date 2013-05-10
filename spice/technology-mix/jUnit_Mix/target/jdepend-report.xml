@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="com.organization.automation.project.spice.mix.junit">
+            <Stats>
+                <TotalClasses>2</TotalClasses>
+                <ConcreteClasses>2</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>6</Ce>
+                <A>0</A>
+                <I>0.86</I>
+                <D>0.14</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="JUnitExtension.java">
+                    com.organization.automation.project.spice.mix.junit.JUnitExtension
+                </Class>
+                <Class sourceFile="JUnitExtension.java">
+                    com.organization.automation.project.spice.mix.junit.JUnitExtension$1
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.junit.extension.annotation</Package>
+                <Package>com.organization.automation.project.spice.mix.junit.system</Package>
+                <Package>java.lang</Package>
+                <Package>java.math</Package>
+                <Package>org.junit.rules</Package>
+                <Package>org.junit.runner</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>com.organization.automation.project.spice.mix.junit.test.set</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.junit.extension.annotation">
+            <Stats>
+                <TotalClasses>3</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>2</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>4</Ce>
+                <A>0.67</A>
+                <I>0.8</I>
+                <D>0.47</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="History.java">
+                    com.organization.automation.project.spice.mix.junit.extension.annotation.History
+                </Class>
+                <Class sourceFile="TestFixture.java">
+                    com.organization.automation.project.spice.mix.junit.extension.annotation.TestFixture
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="AnnotationProcessor.java">
+                    com.organization.automation.project.spice.mix.junit.extension.annotation.AnnotationProcessor
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.lang.annotation</Package>
+                <Package>java.math</Package>
+                <Package>org.junit.runner</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>com.organization.automation.project.spice.mix.junit</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.junit.extension.assertion">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>3</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="CustomAssert.java">
+                    com.organization.automation.project.spice.mix.junit.extension.assertion.CustomAssert
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.math</Package>
+                <Package>org.junit</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.junit.extension.logging">
+            <Stats>
+                <TotalClasses>4</TotalClasses>
+                <ConcreteClasses>4</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>3</Ca>
+                <Ce>6</Ce>
+                <A>0</A>
+                <I>0.67</I>
+                <D>0.33</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="CustomLevels.java">
+                    com.organization.automation.project.spice.mix.junit.extension.logging.CustomLevels
+                </Class>
+                <Class sourceFile="DateUtils.java">
+                    com.organization.automation.project.spice.mix.junit.extension.logging.DateUtils
+                </Class>
+                <Class sourceFile="DemoLevelFilter.java">
+                    com.organization.automation.project.spice.mix.junit.extension.logging.DemoLevelFilter
+                </Class>
+                <Class sourceFile="TAFLoggerFactory.java">
+                    com.organization.automation.project.spice.mix.junit.extension.logging.TAFLoggerFactory
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.text</Package>
+                <Package>java.util</Package>
+                <Package>org.apache.log4j</Package>
+                <Package>org.apache.log4j.spi</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>com.organization.automation.project.spice.mix.junit.system</Package>
+                <Package>com.organization.automation.project.spice.mix.junit.test</Package>
+                <Package>com.organization.automation.project.spice.mix.junit.test.suite</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.junit.system">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>2</Ca>
+                <Ce>4</Ce>
+                <A>0</A>
+                <I>0.67</I>
+                <D>0.33</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="TestSystem.java">
+                    com.organization.automation.project.spice.mix.junit.system.TestSystem
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.junit.extension.logging</Package>
+                <Package>java.lang</Package>
+                <Package>java.util.concurrent</Package>
+                <Package>org.apache.log4j</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>com.organization.automation.project.spice.mix.junit</Package>
+                <Package>com.organization.automation.project.spice.mix.junit.test.set</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.junit.test">
+            <Stats>
+                <TotalClasses>11</TotalClasses>
+                <ConcreteClasses>10</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>4</Ce>
+                <A>0.09</A>
+                <I>1</I>
+                <D>0.09</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="ITestCase.java">
+                    com.organization.automation.project.spice.mix.junit.test.ITestCase
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="AbstractTestCase.java">
+                    com.organization.automation.project.spice.mix.junit.test.AbstractTestCase
+                </Class>
+                <Class sourceFile="AbstractTestCase.java">
+                    com.organization.automation.project.spice.mix.junit.test.AbstractTestCase$1
+                </Class>
+                <Class sourceFile="AbstractTestCase.java">
+                    com.organization.automation.project.spice.mix.junit.test.AbstractTestCase$2
+                </Class>
+                <Class sourceFile="AbstractTestCase.java">
+                    com.organization.automation.project.spice.mix.junit.test.AbstractTestCase$3
+                </Class>
+                <Class sourceFile="AbstractTestCase.java">
+                    com.organization.automation.project.spice.mix.junit.test.AbstractTestCase$4
+                </Class>
+                <Class sourceFile="AbstractTestCase.java">
+                    com.organization.automation.project.spice.mix.junit.test.AbstractTestCase$5
+                </Class>
+                <Class sourceFile="AbstractTestCase.java">
+                    com.organization.automation.project.spice.mix.junit.test.AbstractTestCase$6
+                </Class>
+                <Class sourceFile="AbstractTestCase.java">
+                    com.organization.automation.project.spice.mix.junit.test.AbstractTestCase$7
+                </Class>
+                <Class sourceFile="TCError.java">
+                    com.organization.automation.project.spice.mix.junit.test.TCError
+                </Class>
+                <Class sourceFile="TCException.java">
+                    com.organization.automation.project.spice.mix.junit.test.TCException
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.junit.extension.logging</Package>
+                <Package>java.lang</Package>
+                <Package>java.lang.reflect</Package>
+                <Package>org.apache.log4j</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.junit.test.set">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>3</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="TestSetTexture.java">
+                    com.organization.automation.project.spice.mix.junit.test.set.TestSetTexture
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.junit</Package>
+                <Package>com.organization.automation.project.spice.mix.junit.system</Package>
+                <Package>java.lang</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.junit.test.suite">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>4</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="TestSuiteTexture.java">
+                    com.organization.automation.project.spice.mix.junit.test.suite.TestSuiteTexture
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.junit.extension.logging</Package>
+                <Package>java.lang</Package>
+                <Package>junit.framework</Package>
+                <Package>org.apache.log4j</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="java.io">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang.annotation">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang.reflect">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.math">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.text">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util.concurrent">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="junit.framework">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.log4j">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.log4j.spi">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.junit">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.junit.rules">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.junit.runner">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+    </Packages>
+
+    <Cycles>
+    </Cycles>
+</JDepend>

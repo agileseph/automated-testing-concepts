@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="0.91">
+  <channel>
+    <title>jUnit Mix - Checkstyle report</title>
+    <link>https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix</link>
+    <description>jUnit Mix - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2013</copyright>
+    <item>
+      <title>File: 17,
+             Errors: 0,
+             Warnings: 32,
+             Infos: 0
+      </title>
+            <link>https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html</link>
+      <description>
+        <p>Click <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.extension.annotation.AnnotationProcessor.java">com/organization/automation/project/spice/mix/junit/extension/annotation/AnnotationProcessor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.system.TestSystem.java">com/organization/automation/project/spice/mix/junit/system/TestSystem.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.extension.logging.TAFLoggerFactory.java">com/organization/automation/project/spice/mix/junit/extension/logging/TAFLoggerFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.test.TCException.java">com/organization/automation/project/spice/mix/junit/test/TCException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.extension.logging.CustomLevels.java">com/organization/automation/project/spice/mix/junit/extension/logging/CustomLevels.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.extension.annotation.History.java">com/organization/automation/project/spice/mix/junit/extension/annotation/History.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.JUnitExtension.java">com/organization/automation/project/spice/mix/junit/JUnitExtension.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.test.TCError.java">com/organization/automation/project/spice/mix/junit/test/TCError.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.extension.assertions.CustomAssertUnitTests.java">com/organization/automation/project/spice/mix/junit/extension/assertions/CustomAssertUnitTests.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.extension.logging.DemoLevelFilter.java">com/organization/automation/project/spice/mix/junit/extension/logging/DemoLevelFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.extension.assertion.CustomAssert.java">com/organization/automation/project/spice/mix/junit/extension/assertion/CustomAssert.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.extension.annotation.TestFixture.java">com/organization/automation/project/spice/mix/junit/extension/annotation/TestFixture.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.test.set.TestSetTexture.java">com/organization/automation/project/spice/mix/junit/test/set/TestSetTexture.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.test.ITestCase.java">com/organization/automation/project/spice/mix/junit/test/ITestCase.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.test.suite.TestSuiteTexture.java">com/organization/automation/project/spice/mix/junit/test/suite/TestSuiteTexture.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.java">com/organization/automation/project/spice/mix/junit/test/AbstractTestCase.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/jUnit_Mix/checkstyle.html#com.organization.automation.project.spice.mix.junit.extension.logging.DateUtils.java">com/organization/automation/project/spice/mix/junit/extension/logging/DateUtils.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+
