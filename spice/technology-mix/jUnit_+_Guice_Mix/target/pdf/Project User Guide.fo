@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"><fo:layout-master-set>
+<fo:simple-page-master page-width="8.27in" page-height="11.70in" margin-top="0.625in" margin-left="1in" margin-right="1in" margin-bottom="0.6in" master-name="cover-page">
+<fo:region-body margin-top="0.7in" /></fo:simple-page-master>
+
+<fo:simple-page-master page-width="8.27in" page-height="11.70in" margin-top="0.625in" margin-left="1in" margin-right="1in" margin-bottom="0.6in" master-name="toc">
+<fo:region-body margin-bottom="0.8in" margin-top="0.7in" />
+<fo:region-before extent="0.35in" />
+<fo:region-after extent="0.125in" /></fo:simple-page-master>
+
+<fo:simple-page-master page-width="8.27in" page-height="11.70in" margin-top="0.625in" margin-left="1in" margin-right="1in" margin-bottom="0.6in" master-name="body">
+<fo:region-body margin-bottom="0.8in" margin-top="0.7in" />
+<fo:region-before extent="0.35in" />
+<fo:region-after extent="0.125in" /></fo:simple-page-master>
+</fo:layout-master-set>
+<fo:bookmark-tree>
+<fo:bookmark internal-destination="./toc"><fo:bookmark-title>Table of contents</fo:bookmark-title></fo:bookmark>
+<fo:bookmark internal-destination="./format"><fo:bookmark-title>APT Format</fo:bookmark-title></fo:bookmark>
+<fo:bookmark internal-destination="./xdoc"><fo:bookmark-title>XDoc Example</fo:bookmark-title></fo:bookmark>
+<fo:bookmark internal-destination="./faq"><fo:bookmark-title>FAQ</fo:bookmark-title></fo:bookmark></fo:bookmark-tree>
+<fo:page-sequence master-reference="cover-page">
+<fo:flow flow-name="xsl-region-body">
+<fo:block text-align="center"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="3.125in" />
+<fo:table-column column-width="3.125in" /><fo:table-body>
+<fo:table-row height="1.5in"><fo:table-cell><fo:block /></fo:table-cell><fo:table-cell><fo:block /></fo:table-cell></fo:table-row><fo:table-row keep-with-previous="always" height="0.014in">
+
+<fo:table-cell number-columns-spanned="2">
+<fo:block line-height="0.014in">
+<fo:leader rule-thickness="1pt" color="#454545" leader-length.optimum="100%" leader-pattern="dots" /></fo:block></fo:table-cell></fo:table-row>
+<fo:table-row height="7.447in">
+<fo:table-cell number-columns-spanned="2"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="2.083in" />
+<fo:table-column column-width="2.083in" />
+<fo:table-column column-width="2.083in" /><fo:table-body><fo:table-row>
+<fo:table-cell number-columns-spanned="3"><fo:block />
+<fo:block space-before="3.2235in" /></fo:table-cell></fo:table-row><fo:table-row><fo:table-cell>
+<fo:block space-after="0.5in" /></fo:table-cell>
+<fo:table-cell white-space-collapse="false" border-left-style="dotted" border-left-width="0.1pt" padding-start="0.2in" keep-together="always" border-left-color="#000000" number-columns-spanned="2" linefeed-treatment="preserve" font-family="monospace" wrap-option="no-wrap">
+<fo:block space-after="0.5in" display-align="center" font-weight="bold" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" text-align="left" font-size="16pt">jUnit and Guice Mix</fo:block></fo:table-cell></fo:table-row><fo:table-row><fo:table-cell><fo:block /></fo:table-cell>
+<fo:table-cell wrap-option="no-wrap" keep-together="always" border-left-color="#000000" font-family="monospace" border-bottom-color="#000000" number-columns-spanned="2" border-left-width="0.1pt" border-left-style="dotted" border-bottom-width="0.1pt" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.2in" border-bottom-style="dotted" padding-after="0.2in">
+<fo:block display-align="center" font-weight="bold" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" text-align="left" font-size="12pt">Project documentation</fo:block>
+<fo:block display-align="center" font-weight="bold" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" text-align="left" font-size="12pt">User Guide</fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:table-cell></fo:table-row>
+<fo:table-row height="0.014in">
+<fo:table-cell number-columns-spanned="2"><fo:block space-after="0.2in" line-height="0.014in">
+
+<fo:leader rule-thickness="1pt" color="#454545" leader-length.optimum="100%" leader-pattern="dots" /></fo:block></fo:table-cell></fo:table-row><fo:table-row>
+<fo:table-cell number-columns-spanned="2"><fo:block />
+<fo:block space-before="0.2in" /></fo:table-cell></fo:table-row>
+<fo:table-row height="0.3in"><fo:table-cell><fo:block display-align="center" font-weight="bold" height="0.3in" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" text-align="left" font-size="12pt">Copy Left</fo:block></fo:table-cell><fo:table-cell><fo:block display-align="center" font-weight="bold" height="0.3in" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" text-align="right" font-size="12pt">2013-05-10</fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:flow></fo:page-sequence><fo:page-sequence master-reference="toc" initial-page-number="1" format="i">
+
+<fo:static-content flow-name="xsl-region-before"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="5.625in" />
+<fo:table-column column-width="0.625in" />
+<fo:table-body>
+<fo:table-row>
+<fo:table-cell>
+<fo:block text-align="left" font-family="Helvetica,sans-serif" color="#454545" letter-spacing="2pt" font-size="6pt">Table of contents</fo:block></fo:table-cell>
+<fo:table-cell>
+<fo:block text-align="right" font-family="Helvetica,sans-serif" color="black" font-size="9.5pt">
+<fo:page-number /></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:static-content>
+<fo:static-content flow-name="xsl-region-after">
+<fo:block font-family="Helvetica,sans-serif" color="#454545" letter-spacing="2pt" font-size="6pt">&#169;2013, Copy Left &#8226; ALL RIGHTS RESERVED.</fo:block></fo:static-content>
+<fo:flow flow-name="xsl-region-body">
+<fo:block id="./toc">
+<fo:block>
+<fo:list-block>
+<fo:list-item><fo:list-item-label end-indent="6.375in" start-indent="-1in">
+
+<fo:block font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" text-align="right" font-size="9.5pt"></fo:block></fo:list-item-label><fo:list-item-body end-indent="1in" start-indent="0in">
+
+<fo:block space-after="6pt" font-weight="bold" font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" font-size="16pt">Table of contents</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:block>
+<fo:block space-after.optimum="0em">
+<fo:leader rule-thickness="1pt" color="#454545" leader-length.optimum="100%" leader-pattern="dots" /></fo:block><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="0.45in" />
+<fo:table-column column-width="0.4in" />
+<fo:table-column column-width="0.4in" />
+<fo:table-column column-width="5in" /><fo:table-body>
+<fo:table-row keep-with-next="auto">
+<fo:table-cell display-align="after">
+<fo:block line-height="16pt" text-align="end" color="#A9A9A9" font-size="9.5pt" end-indent="6pt">1.</fo:block></fo:table-cell>
+<fo:table-cell number-columns-spanned="3" display-align="after"><fo:block font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" line-height="16pt" text-align-last="justify" wrap-option="no-wrap" font-size="12pt">
+<fo:basic-link internal-destination="./toc">Table of contents</fo:basic-link>
+<fo:leader leader-pattern-width="5pt" color="#454545" leader-pattern="dots" />
+<fo:inline text-align="right" font-family="Helvetica,sans-serif" color="black" font-size="9.5pt">
+<fo:page-number-citation ref-id="./toc" /></fo:inline></fo:block></fo:table-cell></fo:table-row>
+<fo:table-row keep-with-next="auto">
+<fo:table-cell display-align="after">
+<fo:block line-height="16pt" text-align="end" color="#A9A9A9" font-size="9.5pt" end-indent="6pt">2.</fo:block></fo:table-cell>
+<fo:table-cell number-columns-spanned="3" display-align="after"><fo:block font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" line-height="16pt" text-align-last="justify" wrap-option="no-wrap" font-size="12pt">
+<fo:basic-link internal-destination="./format">APT Format</fo:basic-link>
+<fo:leader leader-pattern-width="5pt" color="#454545" leader-pattern="dots" />
+<fo:inline text-align="right" font-family="Helvetica,sans-serif" color="black" font-size="9.5pt">
+<fo:page-number-citation ref-id="./format" /></fo:inline></fo:block></fo:table-cell></fo:table-row>
+<fo:table-row keep-with-next="auto">
+<fo:table-cell display-align="after">
+<fo:block line-height="16pt" text-align="end" color="#A9A9A9" font-size="9.5pt" end-indent="6pt">3.</fo:block></fo:table-cell>
+<fo:table-cell number-columns-spanned="3" display-align="after"><fo:block font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" line-height="16pt" text-align-last="justify" wrap-option="no-wrap" font-size="12pt">
+<fo:basic-link internal-destination="./xdoc">XDoc Example</fo:basic-link>
+<fo:leader leader-pattern-width="5pt" color="#454545" leader-pattern="dots" />
+<fo:inline text-align="right" font-family="Helvetica,sans-serif" color="black" font-size="9.5pt">
+<fo:page-number-citation ref-id="./xdoc" /></fo:inline></fo:block></fo:table-cell></fo:table-row>
+<fo:table-row keep-with-next="auto">
+<fo:table-cell display-align="after">
+<fo:block line-height="16pt" text-align="end" color="#A9A9A9" font-size="9.5pt" end-indent="6pt">4.</fo:block></fo:table-cell>
+<fo:table-cell number-columns-spanned="3" display-align="after"><fo:block font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" line-height="16pt" text-align-last="justify" wrap-option="no-wrap" font-size="12pt">
+<fo:basic-link internal-destination="./faq">FAQ</fo:basic-link>
+<fo:leader leader-pattern-width="5pt" color="#454545" leader-pattern="dots" />
+<fo:inline text-align="right" font-family="Helvetica,sans-serif" color="black" font-size="9.5pt">
+<fo:page-number-citation ref-id="./faq" /></fo:inline></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:flow></fo:page-sequence>
+<fo:page-sequence initial-page-number="0" master-reference="body">
+
+<fo:static-content flow-name="xsl-region-before"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="5.625in" />
+<fo:table-column column-width="0.625in" />
+<fo:table-body>
+<fo:table-row>
+<fo:table-cell>
+<fo:block text-align="left" font-family="Helvetica,sans-serif" color="#454545" letter-spacing="2pt" font-size="6pt">1   APT Format</fo:block></fo:table-cell>
+<fo:table-cell>
+<fo:block text-align="right" font-family="Helvetica,sans-serif" color="black" font-size="9.5pt">
+<fo:page-number /></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:static-content>
+<fo:static-content flow-name="xsl-region-after">
+<fo:block font-family="Helvetica,sans-serif" color="#454545" letter-spacing="2pt" font-size="6pt">&#169;2013, Copy Left &#8226; ALL RIGHTS RESERVED.</fo:block></fo:static-content><fo:flow flow-name="xsl-region-body">
+
+<fo:block>
+<fo:list-block>
+<fo:list-item><fo:list-item-label end-indent="6.375in" start-indent="-1in">
+
+<fo:block font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" text-align="right" font-size="9.5pt">
+<fo:block space-after="6pt" font-weight="bold" font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" font-size="16pt">1</fo:block></fo:block></fo:list-item-label><fo:list-item-body end-indent="1in" start-indent="0in">
+
+<fo:block space-after="6pt" font-weight="bold" font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" font-size="16pt">APT Format</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:block>
+<fo:block space-after.optimum="0em">
+<fo:leader rule-thickness="1pt" color="#454545" leader-length.optimum="100%" leader-pattern="dots" /></fo:block>
+<fo:block id="./format">
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="6pt" font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="12pt">1.1   The APT format</fo:block>
+<!-- ~~~~~~~~~~~~ -->
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">In the following section, boxes containing text in typewriter-like font are examples of APT source. Original idea: https://github.com/akquinet/maven-site-tutorial/tree/master/regular-site</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="5pt" font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.1.1   Document structure</fo:block>
+<!-- ~~~~~~~~~~~~~~~~~~ -->
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A short APT document is contained in a single text file. A longer document may be contained in a ordered list of text files. For instance, first text file contains section 1, second text file contains section 2, and so on.</fo:block>
+
+
+<fo:block white-space-collapse="true" font-family="Garamond,serif" end-indent="1em" start-indent="1em" line-height="12pt" font-size="11pt">
+<fo:block font-family="Garamond,serif" font-weight="bold" end-indent="1em" start-indent="1em">Note:</fo:block>
+
+
+<fo:block font-family="Garamond,serif" space-before="0.6em" space-after="0.6em" end-indent="inherited-property-value(end-indent) + 1em" start-indent="inherited-property-value(start-indent) + 1em">Splitting the APT document in several text files on a section boundary is not mandatory. The split may occur anywhere. However doing so is recommended because a text file containing a section is by itself a valid APT document.</fo:block>
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A file contains a sequence of paragraphs and ``displays'' (non paragraphs such as tables) separated by open lines.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A paragraph is simply a sequence of consecutive text lines.</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;First&#160;line&#160;of&#160;first&#160;paragraph.
+
+<fo:block/>
+&#160;&#160;Second&#160;line&#160;of&#160;first&#160;paragraph.
+
+<fo:block/>
+&#160;&#160;Third&#160;line&#160;of&#160;first&#160;paragraph.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;Line&#160;1&#160;of&#160;paragraph&#160;2&#160;(separated&#160;from&#160;first&#160;paragraph&#160;by&#160;an&#160;open&#160;line).
+
+<fo:block/>
+&#160;&#160;Line&#160;2&#160;of&#160;paragraph&#160;2.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">The indentation of the first line of a paragraph is the main method used by an APT processor to recognize the type of the paragraph. For example, a section title must not be indented at all.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A ``plain'' paragraph must be indented by a certain amount of space. For example, a plain paragraph which is not contained in a list may be indented by two spaces.</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">My&#160;section&#160;title&#160;(not&#160;indented).
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;My&#160;paragraph&#160;first&#160;line&#160;(indented&#160;by&#160;2&#160;spaces).
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Indentation is not rigid. Any amount of space will do. You don't even need to use a consistent indentation all over your document. What really matters for an APT processor is whether the paragraph is not indented at all or, when inside a list, whether a paragraph is more or less indented than the first item of the list (more about this later).</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;&#160;&#160;First&#160;paragraph&#160;has&#160;its&#160;first&#160;line&#160;indented&#160;by&#160;four
+
+<fo:block/>
+spaces.&#160;Then&#160;the&#160;author&#160;did&#160;even&#160;bother&#160;to&#160;indent&#160;the
+
+<fo:block/>
+other&#160;lines&#160;of&#160;the&#160;paragraph.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;Second&#160;paragraph&#160;contains&#160;several&#160;lines&#160;which&#160;are&#160;all
+
+<fo:block/>
+&#160;&#160;indented&#160;by&#160;two&#160;spaces.&#160;This&#160;style&#160;is&#160;much&#160;nicer&#160;than
+
+<fo:block/>
+&#160;&#160;the&#160;one&#160;used&#160;for&#160;the&#160;previous&#160;paragraph.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Note that tabs are expanded with a tab width set to 8.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="5pt" font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.1.2   Document elements</fo:block>
+<!-- ~~~~~~~~~~~~~~~~~ -->
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="15pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.1.2.1   Block level elements</fo:block>
+<!-- ~~~~~~~~~~~~~~~~~~~~~ -->
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Title</fo:block>
+<!-- ~~~~~~~~ -->
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A title is optional. If used, it must appear as the first block of the document.</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;------
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Title
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;------
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Author
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;------
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Date
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A title block is indented (centering it is nicer). It begins with a line containing at least 3 dashes (
+<fo:inline font-size="10pt" font-family="monospace">---</fo:inline>).</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">After the first 
+<fo:inline font-size="10pt" font-family="monospace">---</fo:inline> line, one or several consecutive lines of text (implicit line break after each line) specify the title of the document.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">This text may immediately be followed by another 
+<fo:inline font-size="10pt" font-family="monospace">---</fo:inline> line and one or several consecutive lines of text which specifies the author of the document.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">The author sub-block may optionaly be followed by a date sub-block using the same syntax.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">The following example is used for a document with an title and a date but with no declared author.</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;------
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Title
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;------
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;------
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Date
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;------
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">The last line is ignored. It is just there to make the block nicer.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Paragraph</fo:block>
+<!-- ~~~~~~~~~~~ -->
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Paragraphs other than the title block may appear before the first section.</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;Paragraph&#160;1,&#160;line&#160;1.
+
+<fo:block/>
+&#160;&#160;Paragraph&#160;1,&#160;line&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;Paragraph&#160;2,&#160;line&#160;1.
+
+<fo:block/>
+&#160;&#160;Paragraph&#160;2,&#160;line&#160;2.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Paragraphs are indented. They have already been described in the 
+<fo:basic-link internal-destination="./format#document_structure">
+<fo:inline color="blue">document structure</fo:inline></fo:basic-link> section.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Section</fo:block>
+<!-- ~~~~~~~~~ -->
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Sections are created by inserting section titles into the document. Simple documents need not contain sections.</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">Section&#160;title
+
+<fo:block/>
+
+
+<fo:block/>
+*&#160;Sub-section&#160;title
+
+<fo:block/>
+
+
+<fo:block/>
+**&#160;Sub-sub-section&#160;title
+
+<fo:block/>
+
+
+<fo:block/>
+***&#160;Sub-sub-sub-section&#160;title
+
+<fo:block/>
+
+
+<fo:block/>
+****&#160;Sub-sub-sub-sub-section&#160;title
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Section titles are not indented. A sub-section title begins with one asterisk (
+<fo:inline font-size="10pt" font-family="monospace">*</fo:inline>), a sub-sub-section title begins with two asterisks (
+<fo:inline font-size="10pt" font-family="monospace">**</fo:inline>), and so forth up to four sub-section levels.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.List</fo:block>
+<!-- ~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;&#160;&#160;&#160;&#160;*&#160;List&#160;item&#160;1.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;*&#160;List&#160;item&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Paragraph&#160;contained&#160;in&#160;list&#160;item&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;Sub-list&#160;item&#160;1.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;Sub-list&#160;item&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;*&#160;List&#160;item&#160;3.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">List items are indented and begin with a asterisk (
+<fo:inline font-size="10pt" font-family="monospace">*</fo:inline>).</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Plain paragraphs more indented than the first list item are nested in that list. Displays such as tables (not indented) are always nested in the current list.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">To nest a list inside a list, indent its first item more than its parent list. To end a list, add a paragraph or list item less indented than the current list.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Section titles always end a list. Displays cannot end a list but the 
+<fo:inline font-size="10pt" font-family="monospace">[]</fo:inline> pseudo-element may be used to force the end of a list.</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;&#160;&#160;&#160;&#160;*&#160;List&#160;item&#160;3.
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Force&#160;end&#160;of&#160;list:
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;[]
+
+<fo:block/>
+
+
+<fo:block/>
+--------------------------------------------
+
+<fo:block/>
+Verbatim&#160;text&#160;not&#160;contained&#160;in&#160;list&#160;item&#160;3
+
+<fo:block/>
+--------------------------------------------
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">In the previous example, without the 
+<fo:inline font-size="10pt" font-family="monospace">[]</fo:inline>, the verbatim text (not indented as all displays) would have been contained in list item 3.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A single 
+<fo:inline font-size="10pt" font-family="monospace">[]</fo:inline> may be used to end several nested lists at the same time. The indentation of 
+<fo:inline font-size="10pt" font-family="monospace">[]</fo:inline> may be used to specify exactly which lists should be ended. Example:</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;&#160;&#160;&#160;&#160;*&#160;List&#160;item&#160;1.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;*&#160;List&#160;item&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;Sub-list&#160;item&#160;1.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;Sub-list&#160;item&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[]
+
+<fo:block/>
+
+
+<fo:block/>
+-------------------------------------------------------------------
+
+<fo:block/>
+Verbatim&#160;text&#160;contained&#160;in&#160;list&#160;item&#160;2,&#160;but&#160;not&#160;in&#160;sub-list&#160;item&#160;2
+
+<fo:block/>
+-------------------------------------------------------------------
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">There are three kind of lists, the bulleted lists we have already described, the numbered lists and the definition lists.</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;&#160;&#160;&#160;&#160;[[1]]&#160;Numbered&#160;item&#160;1.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[[A]]&#160;Numbered&#160;item&#160;A.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[[B]]&#160;Numbered&#160;item&#160;B.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;[[2]]&#160;Numbered&#160;item&#160;2.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A numbered list item begins with a label beetween two square brackets. The label of the first item establishes the numbering scheme for the whole list:</fo:block>
+
+
+<fo:block white-space-collapse="true" font-family="Garamond,serif" end-indent="1em" start-indent="1em" line-height="12pt" font-size="11pt">
+<fo:block font-family="Garamond,serif" font-weight="bold" end-indent="1em" start-indent="1em">
+<fo:inline font-size="10pt" font-family="monospace">[[1]]</fo:inline></fo:block>
+
+
+<fo:block font-family="Garamond,serif" space-before="0.6em" space-after="0.6em" end-indent="inherited-property-value(end-indent) + 1em" start-indent="inherited-property-value(start-indent) + 1em">Decimal numbering: 1, 2, 3, 4, etc.</fo:block>
+
+<fo:block font-family="Garamond,serif" font-weight="bold" end-indent="1em" start-indent="1em">
+<fo:inline font-size="10pt" font-family="monospace">[[a]]</fo:inline></fo:block>
+
+
+<fo:block font-family="Garamond,serif" space-before="0.6em" space-after="0.6em" end-indent="inherited-property-value(end-indent) + 1em" start-indent="inherited-property-value(start-indent) + 1em">Lower-alpha numbering: a, b, c, d, etc.</fo:block>
+
+<fo:block font-family="Garamond,serif" font-weight="bold" end-indent="1em" start-indent="1em">
+<fo:inline font-size="10pt" font-family="monospace">[[A]]</fo:inline></fo:block>
+
+
+<fo:block font-family="Garamond,serif" space-before="0.6em" space-after="0.6em" end-indent="inherited-property-value(end-indent) + 1em" start-indent="inherited-property-value(start-indent) + 1em">Upper-alpha numbering: A, B, C, D, etc.</fo:block>
+
+<fo:block font-family="Garamond,serif" font-weight="bold" end-indent="1em" start-indent="1em">
+<fo:inline font-size="10pt" font-family="monospace">[[i]]</fo:inline></fo:block>
+
+
+<fo:block font-family="Garamond,serif" space-before="0.6em" space-after="0.6em" end-indent="inherited-property-value(end-indent) + 1em" start-indent="inherited-property-value(start-indent) + 1em">Lower-roman numbering: i, ii, iii, iv, etc.</fo:block>
+
+<fo:block font-family="Garamond,serif" font-weight="bold" end-indent="1em" start-indent="1em">
+<fo:inline font-size="10pt" font-family="monospace">[[I]]</fo:inline></fo:block>
+
+
+<fo:block font-family="Garamond,serif" space-before="0.6em" space-after="0.6em" end-indent="inherited-property-value(end-indent) + 1em" start-indent="inherited-property-value(start-indent) + 1em">Upper-roman numbering: I, II, III, IV, etc.</fo:block>
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">The labels of the items other than the first one are ignored. It is recommended to take the time to type the correct label for each item in order to keep the APT source document readable.</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;&#160;&#160;&#160;&#160;[Defined&#160;term&#160;1]&#160;of&#160;definition&#160;list&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;[Defined&#160;term&#160;2]&#160;of&#160;definition&#160;list&#160;2.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A definition list item begins with a defined term: text between square brackets.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Verbatim text</fo:block>
+<!-- ~~~~~~~~~~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">----------------------------------------
+
+<fo:block/>
+Verbatim
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;text,
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;preformatted,
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;escaped.
+
+<fo:block/>
+----------------------------------------
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A verbatim block is not indented. It begins with a non indented line containing at least 3 dashes (
+<fo:inline font-size="10pt" font-family="monospace">---</fo:inline>). It ends with a similar line.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">
+<fo:inline font-size="10pt" font-family="monospace">+--</fo:inline> instead of 
+<fo:inline font-size="10pt" font-family="monospace">---</fo:inline> draws a box around verbatim text.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Like in HTML, verbatim text is preformatted. Unlike HTML, verbatim text is escaped: inside a verbatim display, markup is not interpreted by the APT processor.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Figure</fo:block>
+<!-- ~~~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">[Figure&#160;name]&#160;Figure&#160;caption
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A figure block is not indented. It begins with the figure name between square brackets. The figure name is optionally followed by some text: the figure caption.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">The figure name is the pathname of the file containing the figure but without an extension. Example: if your figure is contained in 
+<fo:inline font-size="10pt" font-family="monospace">/home/joe/docs/mylogo.jpeg</fo:inline>, the figure name is 
+<fo:inline font-size="10pt" font-family="monospace">/home/joe/docs/mylogo</fo:inline>.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">If the figure name comes from a relative pathname (recommended practice) rather than from an absolute pathname, this relative pathname is taken to be relative to the directory of the current APT document (a la HTML) rather than relative to the current working directory.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Why not leave the file extension in the figure name? This is better explained by an example. You need to convert an APT document to PostScript and your figure name is 
+<fo:inline font-size="10pt" font-family="monospace">/home/joe/docs/mylogo</fo:inline>. A APT processor will first try to load 
+<fo:inline font-size="10pt" font-family="monospace">/home/joe/docs/mylogo.eps</fo:inline>. When the desired format is not found, a APT processor tries to convert one of the existing formats. In our example, the APT processor tries to convert 
+<fo:inline font-size="10pt" font-family="monospace">/home/joe/docs/mylogo.jpeg</fo:inline> to encapsulated PostScript.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Table</fo:block>
+<!-- ~~~~~~~ -->
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A table block is not indented. It begins with a non indented line containing an asterisk and at least 2 dashes (
+<fo:inline font-size="10pt" font-family="monospace">*--</fo:inline>). It ends with a similar line.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">The first line is not only used to recognize a table but also to specify column justification. In the following example,</fo:block>
+
+
+<fo:list-block provisional-distance-between-starts="1em" provisional-label-separation="1em" space-before.optimum="10pt" start-indent="inherited-property-value(start-indent)">
+<fo:list-item space-before="0.15em" space-after="0.25em" start-indent="inherited-property-value(start-indent) + 1em"><fo:list-item-label><fo:block>&#8226;</fo:block></fo:list-item-label>
+
+<fo:list-item-body space-before="0.15em" space-after="0.25em" start-indent="inherited-property-value(start-indent) + 1em">
+<fo:block>the second asterisk (
+<fo:inline font-size="10pt" font-family="monospace">*</fo:inline>) is used to specify that column 1 is centered,</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+
+<fo:list-item space-before="0.15em" space-after="0.25em" start-indent="inherited-property-value(start-indent) + 1em"><fo:list-item-label><fo:block>&#8226;</fo:block></fo:list-item-label>
+
+<fo:list-item-body space-before="0.15em" space-after="0.25em" start-indent="inherited-property-value(start-indent) + 1em">
+<fo:block>the plus sign (
+<fo:inline font-size="10pt" font-family="monospace">+</fo:inline>) specifies that column 2 is left aligned,</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+
+<fo:list-item space-before="0.15em" space-after="0.25em" start-indent="inherited-property-value(start-indent) + 1em"><fo:list-item-label><fo:block>&#8226;</fo:block></fo:list-item-label>
+
+<fo:list-item-body space-before="0.15em" space-after="0.25em" start-indent="inherited-property-value(start-indent) + 1em">
+<fo:block>the colon (
+<fo:inline font-size="10pt" font-family="monospace">:</fo:inline>) specifies that column 3 is right aligned.</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">*----------*--------------+----------------:
+
+<fo:block/>
+|&#160;Centered&#160;|&#160;Left-aligned&#160;|&#160;Right-aligned&#160;&#160;|
+
+<fo:block/>
+|&#160;cell&#160;1,1&#160;|&#160;cell&#160;1,2&#160;&#160;&#160;&#160;&#160;|&#160;cell&#160;1,3&#160;&#160;&#160;&#160;&#160;&#160;&#160;|
+
+<fo:block/>
+*----------*--------------+----------------:
+
+<fo:block/>
+|&#160;cell&#160;2,1&#160;|&#160;cell&#160;2,2&#160;&#160;&#160;&#160;&#160;|&#160;cell&#160;2,3&#160;&#160;&#160;&#160;&#160;&#160;&#160;|
+
+<fo:block/>
+*----------*--------------+----------------:
+
+<fo:block/>
+Table&#160;caption
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Rows are separated by a non indented line beginning with 
+<fo:inline font-size="10pt" font-family="monospace">*--</fo:inline>.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">An optional table caption (non indented text) may immediately follow the table.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Rows may contain single line or multiple line cells. Each line of cell text is separated from the adjacent cell by the pipe character (
+<fo:inline font-size="10pt" font-family="monospace">|</fo:inline>). (
+<fo:inline font-size="10pt" font-family="monospace">|</fo:inline> may be used in the cell text if quoted: 
+<fo:inline font-size="10pt" font-family="monospace">\|</fo:inline>.)</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">The last 
+<fo:inline font-size="10pt" font-family="monospace">|</fo:inline> is only used to make the table nicer. The first 
+<fo:inline font-size="10pt" font-family="monospace">|</fo:inline> is not only used to make the table nicer, but also to specify that a grid is to be drawn around table cells.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">The following example shows a simple table with no grid and no caption.</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">*-----*------*
+
+<fo:block/>
+&#160;cell&#160;|&#160;cell
+
+<fo:block/>
+*-----*------*
+
+<fo:block/>
+&#160;cell&#160;|&#160;cell
+
+<fo:block/>
+*-----*------*
+</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Horizontal rule</fo:block>
+<!-- ~~~~~~~~~~~~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">=====================
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A non indented line containing at least 3 equal signs (
+<fo:inline font-size="10pt" font-family="monospace">===</fo:inline>).</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Page break</fo:block>
+<!-- ~~~~~~~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">^L
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A non indented line containing a single form feed character (Control-L).</fo:block>
+</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="15pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.1.2.2   Text level elements</fo:block>
+<!-- ~~~~~~~~~~~~~~~~~~~~ -->
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Font</fo:block>
+<!-- ~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;&lt;Italic&gt;&#160;font.&#160;&lt;&lt;Bold&gt;&gt;&#160;font.&#160;&lt;&lt;&lt;Monospaced&gt;&gt;&gt;&#160;font.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Text between &lt; and &gt; must be rendered in italic. Text between &lt;&lt; and &gt;&gt; must be rendered in bold. Text between &lt;&lt;&lt; and &gt;&gt;&gt; must be rendered using a monospaced, typewriter-like font.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Font elements may appear anywhere except inside other font elements.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">It is not recommended to use font elements inside titles, section titles, links and defined terms because a APT processor automatically applies appropriate font styles to these elements.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Anchor and link</fo:block>
+<!-- ~~~~~~~~~~~~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;{Anchor}.&#160;Link&#160;to&#160;{{anchor}}.&#160;Link&#160;to&#160;{{http://www.pixware.fr}}.
+
+<fo:block/>
+&#160;&#160;Link&#160;to&#160;{{{anchor}showing&#160;alternate&#160;text}}.
+
+<fo:block/>
+&#160;&#160;Link&#160;to&#160;{{{http://www.pixware.fr}Pixware&#160;home&#160;page}}.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Text between curly braces (
+<fo:inline font-size="10pt" font-family="monospace">{}</fo:inline>) specifies an anchor. Text between double curly braces (
+<fo:inline font-size="10pt" font-family="monospace">{{}}</fo:inline>) specifies a link.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">It is an error to create a link element that does not refer to an anchor of the same name. The name of an anchor/link is its text with all non alphanumeric characters stripped.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">This rule does not apply to links to 
+<fo:inline font-style="italic">external</fo:inline> anchors. Text beginning with 
+<fo:inline font-size="10pt" font-family="monospace">http:/</fo:inline>, 
+<fo:inline font-size="10pt" font-family="monospace">https:/</fo:inline>, 
+<fo:inline font-size="10pt" font-family="monospace">ftp:/</fo:inline>, 
+<fo:inline font-size="10pt" font-family="monospace">file:/</fo:inline>, 
+<fo:inline font-size="10pt" font-family="monospace">mailto:</fo:inline>, 
+<fo:inline font-size="10pt" font-family="monospace">../</fo:inline>, 
+<fo:inline font-size="10pt" font-family="monospace">./</fo:inline> (
+<fo:inline font-size="10pt" font-family="monospace">..\</fo:inline> and 
+<fo:inline font-size="10pt" font-family="monospace">.\</fo:inline> on Windows) is recognized as an external anchor name.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">When the construct 
+<fo:inline font-weight="bold">{{{</fo:inline>
+<fo:inline font-style="italic">name</fo:inline>
+<fo:inline font-weight="bold">}</fo:inline>
+<fo:inline font-style="italic">text</fo:inline>
+<fo:inline font-weight="bold">}}</fo:inline> is used, the link text 
+<fo:inline font-style="italic">text</fo:inline> may differ from the link name 
+<fo:inline font-style="italic">name</fo:inline>.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Anchor/link elements may appear anywhere except inside other anchor/link elements.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Section titles are implicitly defined anchors.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Line break</fo:block>
+<!-- ~~~~~~~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;Force&#160;line\
+
+<fo:block/>
+&#160;&#160;break.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A backslash character (
+<fo:inline font-size="10pt" font-family="monospace">\</fo:inline>) followed by a newline character.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Line breaks must not be used inside titles and tables (which are line oriented blocks with implicit line breaks).</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Non breaking space</fo:block>
+<!-- ~~~~~~~~~~~~~~~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;Non\&#160;breaking\&#160;space.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A backslash character (
+<fo:inline font-size="10pt" font-family="monospace">\</fo:inline>) followed by a space character.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Special character</fo:block>
+<!-- ~~~~~~~~~~~~~~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;Escaped&#160;special&#160;characters:&#160;\~,&#160;\=,&#160;\-,&#160;\+,&#160;\*,&#160;\[,&#160;\],&#160;\&lt;,&#160;\&gt;,&#160;\{,&#160;\},&#160;\\.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">In certain contexts, these characters have a special meaning and therefore must be escaped if needed as is. They are escaped by adding a backslash in front of them. The backslash may itself be escaped by adding another backslash in front of it.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Note that an asterisk, for example, needs to be escaped only if its begins a paragraph. (
+<fo:inline font-size="10pt" font-family="monospace">*</fo:inline> has no special meaning in the middle of a paragraph.)</fo:block>
+
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">&#160;&#160;Copyright&#160;symbol:&#160;\251,&#160;\xA9,&#160;\u00a9.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Latin-1 characters (whatever is the encoding of the APT document) may be specified by their codes using a backslash followed by one to three octal digits or by using the 
+<fo:inline font-size="10pt" font-family="monospace">\x</fo:inline>
+<fo:inline font-style="italic">NN</fo:inline> notation, where 
+<fo:inline font-style="italic">NN</fo:inline> are two hexadecimal digits.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Unicode characters may be specified by their codes using the 
+<fo:inline font-size="10pt" font-family="monospace">\u</fo:inline>
+<fo:inline font-style="italic">NNNN</fo:inline> notation, where 
+<fo:inline font-style="italic">NNNN</fo:inline> are four hexadecimal digits.</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="3pt" space-before="9pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.Comment</fo:block>
+<!-- ~~~~~~~~~ -->
+<fo:block wrap-option="no-wrap" font-size="10pt" keep-together="always" font-family="monospace" border-width="0.5pt" color="black" padding-before="0.25em" border-style="solid" start-indent="inherited-property-value(start-indent) + 2.5em" space-after="1em" end-indent="inherited-property-value(end-indent) + 3em" linefeed-treatment="preserve" white-space-collapse="false" padding-start="0.25em" padding-end="0.25em" space-before="0.75em" padding-after="0.25em" border-color="#454545">~~Commented&#160;out.
+</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">Text found after two tildes (
+<fo:inline font-size="10pt" font-family="monospace">~~</fo:inline>) is ignored up to the end of line.</fo:block>
+
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">A line of 
+<fo:inline font-size="10pt" font-family="monospace">~</fo:inline> is often used to ``underline'' section titles in order to make them stand out of other paragraphs.</fo:block>
+</fo:block>
+</fo:block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="5pt" font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="9.5pt">1.1.3   The APT format at a glance</fo:block>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<fo:block white-space-collapse="false" keep-together="always" linefeed-treatment="preserve" font-family="monospace" wrap-option="no-wrap" font-size="10pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;------
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Title
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;------
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Author
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;------
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Date
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;Paragraph&#160;1,&#160;line&#160;1.
+
+<fo:block/>
+&#160;&#160;Paragraph&#160;1,&#160;line&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;Paragraph&#160;2,&#160;line&#160;1.
+
+<fo:block/>
+&#160;&#160;Paragraph&#160;2,&#160;line&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+Section&#160;title
+
+<fo:block/>
+
+
+<fo:block/>
+*&#160;Sub-section&#160;title
+
+<fo:block/>
+
+
+<fo:block/>
+**&#160;Sub-sub-section&#160;title
+
+<fo:block/>
+
+
+<fo:block/>
+***&#160;Sub-sub-sub-section&#160;title
+
+<fo:block/>
+
+
+<fo:block/>
+****&#160;Sub-sub-sub-sub-section&#160;title
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;*&#160;List&#160;item&#160;1.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;*&#160;List&#160;item&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Paragraph&#160;contained&#160;in&#160;list&#160;item&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;Sub-list&#160;item&#160;1.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;*&#160;Sub-list&#160;item&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;*&#160;List&#160;item&#160;3.
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Force&#160;end&#160;of&#160;list:
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;[]
+
+<fo:block/>
+
+
+<fo:block/>
++------------------------------------------+
+
+<fo:block/>
+Verbatim&#160;text&#160;not&#160;contained&#160;in&#160;list&#160;item&#160;3
+
+<fo:block/>
++------------------------------------------+
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;[[1]]&#160;Numbered&#160;item&#160;1.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[[A]]&#160;Numbered&#160;item&#160;A.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[[B]]&#160;Numbered&#160;item&#160;B.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;[[2]]&#160;Numbered&#160;item&#160;2.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;List&#160;numbering&#160;schemes:&#160;[[1]],&#160;[[a]],&#160;[[A]],&#160;[[i]],&#160;[[I]].
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;[Defined&#160;term&#160;1]&#160;of&#160;definition&#160;list.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;[Defined&#160;term&#160;2]&#160;of&#160;definition&#160;list.
+
+<fo:block/>
+
+
+<fo:block/>
++-------------------------------+
+
+<fo:block/>
+Verbatim&#160;text
+
+<fo:block/>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;in&#160;a&#160;box
+
+<fo:block/>
++-------------------------------+
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;---&#160;instead&#160;of&#160;+--&#160;suppresses&#160;the&#160;box&#160;around&#160;verbatim&#160;text.
+
+<fo:block/>
+
+
+<fo:block/>
+[Figure&#160;name]&#160;Figure&#160;caption
+
+<fo:block/>
+
+
+<fo:block/>
+*----------*--------------+----------------:
+
+<fo:block/>
+|&#160;Centered&#160;|&#160;Left-aligned&#160;|&#160;Right-aligned&#160;&#160;|
+
+<fo:block/>
+|&#160;cell&#160;1,1&#160;|&#160;cell&#160;1,2&#160;&#160;&#160;&#160;&#160;|&#160;cell&#160;1,3&#160;&#160;&#160;&#160;&#160;&#160;&#160;|
+
+<fo:block/>
+*----------*--------------+----------------:
+
+<fo:block/>
+|&#160;cell&#160;2,1&#160;|&#160;cell&#160;2,2&#160;&#160;&#160;&#160;&#160;|&#160;cell&#160;2,3&#160;&#160;&#160;&#160;&#160;&#160;&#160;|
+
+<fo:block/>
+*----------*--------------+----------------:
+
+<fo:block/>
+Table&#160;caption
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;No&#160;grid,&#160;no&#160;caption:
+
+<fo:block/>
+
+
+<fo:block/>
+*-----*------*
+
+<fo:block/>
+&#160;cell&#160;|&#160;cell
+
+<fo:block/>
+*-----*------*
+
+<fo:block/>
+&#160;cell&#160;|&#160;cell
+
+<fo:block/>
+*-----*------*
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;Horizontal&#160;line:
+
+<fo:block/>
+
+
+<fo:block/>
+=======================================================================
+
+<fo:block/>
+
+
+<fo:block/>
+^L
+
+<fo:block/>
+&#160;&#160;New&#160;page.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;&lt;Italic&gt;&#160;font.&#160;&lt;&lt;Bold&gt;&gt;&#160;font.&#160;&lt;&lt;&lt;Monospaced&gt;&gt;&gt;&#160;font.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;{Anchor}.&#160;Link&#160;to&#160;{{anchor}}.&#160;Link&#160;to&#160;{{http://www.pixware.fr}}.
+
+<fo:block/>
+&#160;&#160;Link&#160;to&#160;{{{anchor}showing&#160;alternate&#160;text}}.
+
+<fo:block/>
+&#160;&#160;Link&#160;to&#160;{{{http://www.pixware.fr}Pixware&#160;home&#160;page}}.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;Force&#160;line\
+
+<fo:block/>
+&#160;&#160;break.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;Non\&#160;breaking\&#160;space.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;Escaped&#160;special&#160;characters:&#160;\~,&#160;\=,&#160;\-,&#160;\+,&#160;\*,&#160;\[,&#160;\],&#160;\&lt;,&#160;\&gt;,&#160;\{,&#160;\},&#160;\\.
+
+<fo:block/>
+
+
+<fo:block/>
+&#160;&#160;Copyright&#160;symbol:&#160;\251,&#160;\xA9,&#160;\u00a9.
+
+<fo:block/>
+
+
+<fo:block/>
+~~Commented&#160;out.
+
+<fo:block/>
+
+</fo:block>
+</fo:block>
+</fo:block>
+
+</fo:block></fo:flow></fo:page-sequence>
+  
+<fo:page-sequence initial-page-number="auto" master-reference="body">
+
+<fo:static-content flow-name="xsl-region-before"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="5.625in" />
+<fo:table-column column-width="0.625in" />
+<fo:table-body>
+<fo:table-row>
+<fo:table-cell>
+<fo:block text-align="left" font-family="Helvetica,sans-serif" color="#454545" letter-spacing="2pt" font-size="6pt">2   XDoc Example</fo:block></fo:table-cell>
+<fo:table-cell>
+<fo:block text-align="right" font-family="Helvetica,sans-serif" color="black" font-size="9.5pt">
+<fo:page-number /></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:static-content>
+<fo:static-content flow-name="xsl-region-after">
+<fo:block font-family="Helvetica,sans-serif" color="#454545" letter-spacing="2pt" font-size="6pt">&#169;2013, Copy Left &#8226; ALL RIGHTS RESERVED.</fo:block></fo:static-content><fo:flow flow-name="xsl-region-body">
+
+<fo:block>
+<fo:list-block>
+<fo:list-item><fo:list-item-label end-indent="6.375in" start-indent="-1in">
+
+<fo:block font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" text-align="right" font-size="9.5pt">
+<fo:block space-after="6pt" font-weight="bold" font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" font-size="16pt">2</fo:block></fo:block></fo:list-item-label><fo:list-item-body end-indent="1in" start-indent="0in">
+
+<fo:block space-after="6pt" font-weight="bold" font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" font-size="16pt">XDoc Example</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:block>
+<fo:block space-after.optimum="0em">
+<fo:leader rule-thickness="1pt" color="#454545" leader-length.optimum="100%" leader-pattern="dots" /></fo:block>
+<fo:block id="./xdoc">
+    
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="6pt" font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="12pt">2.1   Welcome to an XDOC file!</fo:block>
+
+      
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">
+        This is some text for the xdoc file.
+      </fo:block>
+
+    </fo:block>
+
+  
+</fo:block></fo:flow></fo:page-sequence>
+
+<fo:page-sequence initial-page-number="auto" master-reference="body">
+
+<fo:static-content flow-name="xsl-region-before"><fo:table table-layout="fixed" width="100%" >
+
+<fo:table-column column-width="5.625in" />
+<fo:table-column column-width="0.625in" />
+<fo:table-body>
+<fo:table-row>
+<fo:table-cell>
+<fo:block text-align="left" font-family="Helvetica,sans-serif" color="#454545" letter-spacing="2pt" font-size="6pt">3   FAQ</fo:block></fo:table-cell>
+<fo:table-cell>
+<fo:block text-align="right" font-family="Helvetica,sans-serif" color="black" font-size="9.5pt">
+<fo:page-number /></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:static-content>
+<fo:static-content flow-name="xsl-region-after">
+<fo:block font-family="Helvetica,sans-serif" color="#454545" letter-spacing="2pt" font-size="6pt">&#169;2013, Copy Left &#8226; ALL RIGHTS RESERVED.</fo:block></fo:static-content><fo:flow flow-name="xsl-region-body">
+
+<fo:block>
+<fo:list-block>
+<fo:list-item><fo:list-item-label end-indent="6.375in" start-indent="-1in">
+
+<fo:block font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" text-align="right" font-size="9.5pt">
+<fo:block space-after="6pt" font-weight="bold" font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" font-size="16pt">3</fo:block></fo:block></fo:list-item-label><fo:list-item-body end-indent="1in" start-indent="0in">
+
+<fo:block space-after="6pt" font-weight="bold" font-family="Helvetica,sans-serif" keep-with-next="always" line-height="10pt" color="#000000" font-size="16pt">FAQ</fo:block></fo:list-item-body></fo:list-item></fo:list-block></fo:block>
+<fo:block space-after.optimum="0em">
+<fo:leader rule-thickness="1pt" color="#454545" leader-length.optimum="100%" leader-pattern="dots" /></fo:block>
+<fo:block id="./faq">
+
+<fo:block white-space-collapse="true" line-height="12pt" font-family="Garamond,serif" font-size="11pt">
+
+<fo:block space-after="6pt" font-weight="bold" space-before="18pt" font-family="Helvetica,sans-serif" keep-with-next="always" color="#000000" font-size="12pt">3.1   
+<fo:inline id="./faq#top">FAQ</fo:inline></fo:block>
+
+
+<fo:list-block provisional-distance-between-starts="1em" provisional-label-separation="1em" space-before.optimum="10pt" start-indent="inherited-property-value(start-indent)">
+<fo:list-item space-before="0.15em" space-after="0.25em" start-indent="inherited-property-value(start-indent) + 1em">
+<fo:list-item-label>
+<fo:block>1.</fo:block>
+</fo:list-item-label>
+
+<fo:list-item-body space-before="0.15em" space-after="0.25em" start-indent="inherited-property-value(start-indent) + 1em">
+<fo:block>
+<fo:basic-link internal-destination="./faq#where">
+<fo:inline color="blue">Where did Maven come from?</fo:inline></fo:basic-link></fo:block>
+</fo:list-item-body>
+</fo:list-item>
+
+<fo:list-item space-before="0.15em" space-after="0.25em" start-indent="inherited-property-value(start-indent) + 1em">
+<fo:list-item-label>
+<fo:block>2.</fo:block>
+</fo:list-item-label>
+
+<fo:list-item-body space-before="0.15em" space-after="0.25em" start-indent="inherited-property-value(start-indent) + 1em">
+<fo:block>
+<fo:basic-link internal-destination="./faq#why">
+<fo:inline color="blue">Why is Maven so wildly popular?</fo:inline></fo:basic-link></fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+
+
+<fo:block white-space-collapse="true" font-family="Garamond,serif" end-indent="1em" start-indent="1em" line-height="12pt" font-size="11pt">
+<fo:block font-family="Garamond,serif" font-weight="bold" end-indent="1em" start-indent="1em">
+<fo:inline id="./faq#where">Where did Maven come from?</fo:inline></fo:block>
+
+
+<fo:block font-family="Garamond,serif" space-before="0.6em" space-after="0.6em" end-indent="inherited-property-value(end-indent) + 1em" start-indent="inherited-property-value(start-indent) + 1em">
+        
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">
+          Maven was created by a group of software developers who were tired
+          of wasting their time fiddling around with builds and wanted to get
+          down to brass tacks and actually develop software!
+       </fo:block>
+
+      
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" text-align="right" font-size="11pt">
+<fo:basic-link internal-destination="./faq#top">
+<fo:inline color="blue">[top]</fo:inline></fo:basic-link></fo:block>
+
+
+<fo:block>
+<fo:leader rule-thickness="0.5pt" color="black" leader-length.optimum="100%" leader-pattern="rule" /></fo:block>
+</fo:block>
+
+<fo:block font-family="Garamond,serif" font-weight="bold" end-indent="1em" start-indent="1em">
+<fo:inline id="./faq#why">Why is Maven so wildly popular?</fo:inline></fo:block>
+
+
+<fo:block font-family="Garamond,serif" space-before="0.6em" space-after="0.6em" end-indent="inherited-property-value(end-indent) + 1em" start-indent="inherited-property-value(start-indent) + 1em">
+        
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" font-size="11pt">
+          Maven saves you so much time in your software development efforts that
+          you will have time to learn a second language, relax ten hours a
+          day, and train for that marathon you've always wanted to run!
+       </fo:block>
+
+      
+<fo:block white-space-collapse="true" space-after="6pt" space-before="3pt" font-family="Garamond,serif" line-height="12pt" text-align="right" font-size="11pt">
+<fo:basic-link internal-destination="./faq#top">
+<fo:inline color="blue">[top]</fo:inline></fo:basic-link></fo:block>
+</fo:block>
+</fo:block>
+
+</fo:block></fo:flow></fo:page-sequence></fo:root>

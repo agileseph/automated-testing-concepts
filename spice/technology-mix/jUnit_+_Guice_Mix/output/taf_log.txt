@@ -1,0 +1,66 @@
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        Description: testGuiceProxy_PositiveCaseWithLogModule 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        ---------------------------------------------------------- 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                           [ PASS ] 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        Description: testGuiceProxy_PositiveCase 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        ---------------------------------------------------------- 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                           [ PASS ] 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        Description: testGuiceProxy_PositiveCaseWithConstructorParameter 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        ---------------------------------------------------------- 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]                                                           [ PASS ] 
+[10 May 2013 PM 09:46:36.557 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 

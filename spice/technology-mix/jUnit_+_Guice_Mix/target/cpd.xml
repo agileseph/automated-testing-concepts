@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="71" tokens="245">
+      <file line="40"
+            path="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_+_Guice_Mix\src\com\organization\automation\project\spice\mix\junit\test\AbstractTestCase.java"/>
+      <file line="47"
+            path="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\jUnit_+_Guice_Mix\src\com\organization\automation\project\spice\mix\junit\test\AssistedAbstractTestCase.java"/>
+      <codefragment><![CDATA[	}
+	
+	@LogStep
+	@Override
+	public void preconditions() throws Exception {
+	}
+
+	@LogStep
+	@Override
+	public void init() throws Exception {
+	}
+	
+	@LogStep
+	@Override
+	public void setup() throws Exception {
+	}
+	
+	@LogStep
+	@Override
+	public void steps() throws Exception {
+	}
+	
+	@LogStep
+	@Override
+	public void poststeps() throws Exception {
+	}
+	
+	@LogStep
+	@Override
+	public void check() throws Exception {
+	}
+	
+	@LogStep
+	@Override
+	public void teardown() throws Exception {
+		id = null;
+	}
+
+	@LogStep
+	@Override
+	public void run() throws TCException {
+		try {
+			preconditions();
+			init();
+			setup();
+			steps();
+			poststeps();
+			check();
+		} catch (Exception e) {
+			LOGGER.error("[TEST]       [EXCEPTION]");
+			LOGGER.error("[TEST]        " + e.toString());
+			throw new TCException(e);
+		} catch (Error e) {
+			LOGGER.error("[TEST]       [ERROR]");
+			LOGGER.error("[TEST]        " + e.toString());
+			throw new TCError(e);
+		} finally {
+			teardownSafely();
+		}
+	}
+	
+	public void teardownSafely() {
+		try {
+			teardown();
+		} catch (Exception e) {
+			LOGGER.error(e.toString());
+		} catch (Error e) {
+			LOGGER.error(e.toString());
+		}
+	}	
+}]]></codefragment>
+   </duplication>
+</pmd-cpd>
