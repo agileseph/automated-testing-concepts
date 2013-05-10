@@ -1,0 +1,9 @@
+com.organization.automation.project.spice.mix.aop.aspectjspring
+com.organization.automation.project.spice.mix.junit
+com.organization.automation.project.spice.mix.junit.extension.annotation
+com.organization.automation.project.spice.mix.junit.extension.assertion
+com.organization.automation.project.spice.mix.junit.extension.logging
+com.organization.automation.project.spice.mix.junit.system
+com.organization.automation.project.spice.mix.junit.test
+com.organization.automation.project.spice.mix.junit.test.set
+com.organization.automation.project.spice.mix.junit.test.suite

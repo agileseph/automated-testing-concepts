@@ -1,0 +1,153 @@
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        Description: testAspectJSpringProxy_PositiveCaseWithAspect 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found AspectJ method: public void com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestRun(org.aspectj.lang.JoinPoint) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found AspectJ method: public java.lang.Object com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestStep(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Creating CGLIB2 proxy: target source is SingletonTargetSource for target object [com.organization.automation.project.spice.mix.junit.test.AbstractTestCase@157aa53] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.steps() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.preconditions() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.poststeps() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.setId(java.lang.String) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.teardownSafely() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.run() throws com.organization.automation.project.spice.mix.junit.test.TCException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.check() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.init() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.setup() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public java.lang.String com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.getId() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.teardown() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found finalize() method - using NO_OVERRIDE 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found 'hashCode' method: public native int java.lang.Object.hashCode() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public java.lang.String java.lang.Object.toString() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        ---------------------------------------------------------- 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                           [ PASS ] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        Description: testAspectJSpringProxy_PositiveCase 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found AspectJ method: public void com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestRun(org.aspectj.lang.JoinPoint) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found AspectJ method: public java.lang.Object com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestStep(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Creating CGLIB2 proxy: target source is SingletonTargetSource for target object [com.organization.automation.project.spice.mix.junit.test.AbstractTestCase@64883c] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        ---------------------------------------------------------- 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                           [ PASS ] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        Description: testAspectJSpringProxy_PositiveCaseWithConstructorParameter 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found AspectJ method: public void com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestRun(org.aspectj.lang.JoinPoint) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found AspectJ method: public java.lang.Object com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestStep(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Creating CGLIB2 proxy: target source is SingletonTargetSource for target object [com.organization.automation.project.spice.mix.aop.aspectjspring.TCSample@8c436b] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.steps() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.preconditions() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.poststeps() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.setId(java.lang.String) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.teardownSafely() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.run() throws com.organization.automation.project.spice.mix.junit.test.TCException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.check() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.init() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.setup() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public java.lang.String com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.getId() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.junit.test.AbstractTestCase.teardown() throws java.lang.Exception 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found finalize() method - using NO_OVERRIDE 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found 'hashCode' method: public native int java.lang.Object.hashCode() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public java.lang.String java.lang.Object.toString() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor) 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass() 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        ---------------------------------------------------------- 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]                                                           [ PASS ] 
+[10 May 2013 PM 08:36:50.603 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
