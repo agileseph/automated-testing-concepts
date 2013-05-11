@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.0.2" timestamp="2013-05-11T22:58:02.786">
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\src\com\organization\automation\project\spice\mix\testng\extension\logging\CustomLevels.java">
+<violation beginline="21" endline="98" begincolumn="41" endcolumn="1" rule="UseSingleton" ruleset="Design" package="com.organization.automation.project.spice.mix.testng.extension.logging" class="CustomLevels" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\src\com\organization\automation\project\spice\mix\testng\extension\logging\DateUtils.java">
+<violation beginline="48" endline="48" begincolumn="43" endcolumn="58" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.logging" class="DateUtils" method="now_2TimeZones" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="54" endline="54" begincolumn="24" endcolumn="25" rule="UseStringBufferForStringAppends" ruleset="Optimization" package="com.organization.automation.project.spice.mix.testng.extension.logging" class="DateUtils" method="now_2TimeZones" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/optimizations.html#UseStringBufferForStringAppends" priority="3">
+Prefer StringBuffer over += for concatenating strings
+</violation>
+<violation beginline="62" endline="62" begincolumn="43" endcolumn="59" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.logging" class="DateUtils" method="now_TimeZone_BY" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="70" endline="70" begincolumn="43" endcolumn="59" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.logging" class="DateUtils" method="now_TimeZone_NY" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="93" endline="93" begincolumn="41" endcolumn="48" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.logging" class="DateUtils" method="now_TC" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\src\com\organization\automation\project\spice\mix\testng\extension\logging\TAFLoggerFactory.java">
+<violation beginline="32" endline="32" begincolumn="31" endcolumn="36" rule="LoggerIsNotStaticFinal" ruleset="Java Logging" package="com.organization.automation.project.spice.mix.testng.extension.logging" class="TAFLoggerFactory" variable="logger" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/logging-java.html#LoggerIsNotStaticFinal" priority="2">
+The Logger variable declaration does not contain the static and final modifiers
+</violation>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\src\com\organization\automation\project\spice\mix\testng\test\AbstractTestCase.java">
+<violation beginline="42" endline="42" begincolumn="44" endcolumn="52" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AbstractTestCase" method="preconditions" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="47" endline="47" begincolumn="35" endcolumn="43" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AbstractTestCase" method="init" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="52" endline="52" begincolumn="36" endcolumn="44" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AbstractTestCase" method="setup" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="57" endline="57" begincolumn="36" endcolumn="44" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AbstractTestCase" method="steps" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="62" endline="62" begincolumn="40" endcolumn="48" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AbstractTestCase" method="poststeps" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="67" endline="67" begincolumn="36" endcolumn="44" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AbstractTestCase" method="check" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="72" endline="72" begincolumn="39" endcolumn="47" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AbstractTestCase" method="teardown" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\src\com\organization\automation\project\spice\mix\testng\test\AssistedAbstractTestCase.java">
+<violation beginline="53" endline="53" begincolumn="44" endcolumn="52" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="preconditions" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="53" endline="54" begincolumn="54" endcolumn="9" rule="UncommentedEmptyMethod" ruleset="Design" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="preconditions" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="58" endline="58" begincolumn="35" endcolumn="43" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="init" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="58" endline="59" begincolumn="45" endcolumn="9" rule="UncommentedEmptyMethod" ruleset="Design" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="init" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="63" endline="63" begincolumn="36" endcolumn="44" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="setup" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="63" endline="64" begincolumn="46" endcolumn="9" rule="UncommentedEmptyMethod" ruleset="Design" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="setup" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="68" endline="68" begincolumn="36" endcolumn="44" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="steps" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="68" endline="69" begincolumn="46" endcolumn="9" rule="UncommentedEmptyMethod" ruleset="Design" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="steps" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="73" endline="73" begincolumn="40" endcolumn="48" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="poststeps" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="73" endline="74" begincolumn="50" endcolumn="9" rule="UncommentedEmptyMethod" ruleset="Design" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="poststeps" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="78" endline="78" begincolumn="36" endcolumn="44" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="check" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="78" endline="79" begincolumn="46" endcolumn="9" rule="UncommentedEmptyMethod" ruleset="Design" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="check" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="83" endline="83" begincolumn="39" endcolumn="47" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="AssistedAbstractTestCase" method="teardown" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\src\com\organization\automation\project\spice\mix\testng\test\ITestCase.java">
+<violation beginline="21" endline="21" begincolumn="37" endcolumn="45" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="ITestCase" method="preconditions" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="22" endline="22" begincolumn="37" endcolumn="45" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="ITestCase" method="init" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="23" endline="23" begincolumn="37" endcolumn="45" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="ITestCase" method="setup" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="24" endline="24" begincolumn="37" endcolumn="45" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="ITestCase" method="steps" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="25" endline="25" begincolumn="37" endcolumn="45" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="ITestCase" method="poststeps" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="26" endline="26" begincolumn="37" endcolumn="45" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="ITestCase" method="check" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="27" endline="27" begincolumn="37" endcolumn="45" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="com.organization.automation.project.spice.mix.testng.test" class="ITestCase" method="teardown" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\src\com\organization\automation\project\spice\mix\testng\test\TCError.java">
+<violation beginline="19" endline="19" begincolumn="30" endcolumn="34" rule="DoNotExtendJavaLangError" ruleset="Strict Exceptions" package="com.organization.automation.project.spice.mix.testng.test" class="TCError" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/strictexception.html#DoNotExtendJavaLangError" priority="3">
+Exceptions should not extend java.lang.Error
+</violation>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\src\com\organization\automation\project\spice\mix\testng\test\data\TestDataProvider.java">
+<violation beginline="34" endline="34" begincolumn="30" endcolumn="56" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.test.data" class="TestDataProvider" method="createTestData_AbstractTC" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="42" endline="42" begincolumn="30" endcolumn="65" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.test.data" class="TestDataProvider" method="createTestData_AbstractTCLogAspect" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="50" endline="50" begincolumn="30" endcolumn="76" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.test.data" class="TestDataProvider" method="createTestData_AbstractTCConstructorParameter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\src\com\organization\automation\project\spice\mix\testng\test\set\TestSetTexture.java">
+<violation beginline="34" endline="34" begincolumn="29" endcolumn="112" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="com.organization.automation.project.spice.mix.testng.test.set" class="TestSetTexture" method="setUpSuiteTests" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;[SUITE]        ===================================================================&quot; appears 4 times in this file; the first occurrence is on line 34
+</violation>
+<violation beginline="40" endline="40" begincolumn="29" endcolumn="112" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="com.organization.automation.project.spice.mix.testng.test.set" class="TestSetTexture" method="setUpAllTests" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;[SET]          ===================================================================&quot; appears 4 times in this file; the first occurrence is on line 40
+</violation>
+<violation beginline="44" endline="44" begincolumn="29" endcolumn="57" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="com.organization.automation.project.spice.mix.testng.test.set" class="TestSetTexture" method="setUpAllTests" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;[TEST]_____________________&quot; appears 8 times in this file; the first occurrence is on line 44
+</violation>
+<violation beginline="46" endline="46" begincolumn="29" endcolumn="48" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="com.organization.automation.project.spice.mix.testng.test.set" class="TestSetTexture" method="setUpAllTests" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;[TEST]         ...&quot; appears 4 times in this file; the first occurrence is on line 46
+</violation>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\test\com\organization\automation\project\spice\mix\testng\extension\aop\guice\GuiceProxyUnitTests.java">
+<violation beginline="47" endline="47" begincolumn="21" endcolumn="103" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.aop.guice" class="GuiceProxyUnitTests" method="testAspectJSpringProxy_PositiveCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="54" endline="54" begincolumn="21" endcolumn="113" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.aop.guice" class="GuiceProxyUnitTests" method="testAspectJSpringProxy_PositiveCaseWithAspect" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="61" endline="61" begincolumn="21" endcolumn="127" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.aop.guice" class="GuiceProxyUnitTests" method="testAspectJSpringProxy_PositiveCaseWithConstructorParameter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+</file>
+<file name="C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_+_Guice_Mix\test\com\organization\automation\project\spice\mix\testng\extension\assertions\CustomAssertUnitTests.java">
+<violation beginline="49" endline="49" begincolumn="21" endcolumn="59" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_smallNumbersCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="50" endline="50" begincolumn="39" endcolumn="57" rule="BigIntegerInstantiation" ruleset="Basic" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_smallNumbersCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/basic.html#BigIntegerInstantiation" priority="3">
+Dont create instances of already existing BigInteger and BigDecimal (ZERO, ONE, TEN)
+</violation>
+<violation beginline="51" endline="51" begincolumn="39" endcolumn="57" rule="BigIntegerInstantiation" ruleset="Basic" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_smallNumbersCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/basic.html#BigIntegerInstantiation" priority="3">
+Dont create instances of already existing BigInteger and BigDecimal (ZERO, ONE, TEN)
+</violation>
+<violation beginline="57" endline="57" begincolumn="21" endcolumn="57" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_bigNumbersCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="58" endline="58" begincolumn="54" endcolumn="65" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_bigNumbersCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;2147483648&quot; appears 5 times in this file; the first occurrence is on line 58
+</violation>
+<violation beginline="65" endline="65" begincolumn="21" endcolumn="68" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_bigNumbersEqualObjectCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="77" endline="77" begincolumn="21" endcolumn="63" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_smallNumbersMoreCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="78" endline="78" begincolumn="39" endcolumn="57" rule="BigIntegerInstantiation" ruleset="Basic" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_smallNumbersMoreCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/basic.html#BigIntegerInstantiation" priority="3">
+Dont create instances of already existing BigInteger and BigDecimal (ZERO, ONE, TEN)
+</violation>
+<violation beginline="85" endline="85" begincolumn="21" endcolumn="63" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_smallNumbersLessCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="87" endline="87" begincolumn="39" endcolumn="57" rule="BigIntegerInstantiation" ruleset="Basic" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_smallNumbersLessCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/basic.html#BigIntegerInstantiation" priority="3">
+Dont create instances of already existing BigInteger and BigDecimal (ZERO, ONE, TEN)
+</violation>
+<violation beginline="93" endline="93" begincolumn="21" endcolumn="61" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_bigNumbersMoreCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="95" endline="95" begincolumn="54" endcolumn="65" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_bigNumbersMoreCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;3147483648&quot; appears 4 times in this file; the first occurrence is on line 95
+</violation>
+<violation beginline="101" endline="101" begincolumn="21" endcolumn="61" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_bigNumbersLessCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="109" endline="109" begincolumn="21" endcolumn="61" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_mixNumbersMoreCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="117" endline="117" begincolumn="21" endcolumn="61" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_mixNumbersLessCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+<violation beginline="125" endline="125" begincolumn="21" endcolumn="67" rule="MethodNamingConventions" ruleset="Naming" package="com.organization.automation.project.spice.mix.testng.extension.assertions" class="CustomAssertUnitTests" method="testBigIntegerAssert_smallNumbersNegativeCase" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not contain underscores
+</violation>
+</file>
+</pmd>
