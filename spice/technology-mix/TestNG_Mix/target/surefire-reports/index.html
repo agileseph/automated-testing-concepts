@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automation_Project_Test_Suite">
+              <span class="suite-name border-passed">Automation Project Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automation_Project_Test_Suite">
+                    <span>C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_Mix\config\automation-project-settings.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automation_Project_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automation_Project_Test_Suite">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automation_Project_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automation_Project_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automation_Project_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automation_Project_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_Project_Test_Suite" class="hide-methods passed suite-Automation_Project_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Automation_Project_Test_Suite -->
+                      <a href="#" panel-name="suite-Automation_Project_Test_Suite" class="show-methods passed suite-Automation_Project_Test_Suite"> (show)</a> <!-- show-methods passed suite-Automation_Project_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_Project_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.AcceptanceTests_Feature_AbstractTC" hash-for-method="isAbstractTCworks(com.organization.automation.project.spice.mix.testng.test.AbstractTestCase@1c56c60)">isAbstractTCworks(com.organization.automation.project.spice.mix.testng.test.AbstractTestCase@1c56c60)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet" hash-for-method="isLocalTAFEnvOK">isLocalTAFEnvOK</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet" hash-for-method="isQAEnvOK">isQAEnvOK</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" hash-for-method="testBigIntegerAssert_bigNumbersCase">testBigIntegerAssert_bigNumbersCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" hash-for-method="testBigIntegerAssert_bigNumbersEqualObjectCase">testBigIntegerAssert_bigNumbersEqualObjectCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" hash-for-method="testBigIntegerAssert_bigNumbersLessCase">testBigIntegerAssert_bigNumbersLessCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" hash-for-method="testBigIntegerAssert_bigNumbersMoreCase">testBigIntegerAssert_bigNumbersMoreCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" hash-for-method="testBigIntegerAssert_mixNumbersLessCase">testBigIntegerAssert_mixNumbersLessCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" hash-for-method="testBigIntegerAssert_mixNumbersMoreCase">testBigIntegerAssert_mixNumbersMoreCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" hash-for-method="testBigIntegerAssert_smallNumbersCase">testBigIntegerAssert_smallNumbersCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" hash-for-method="testBigIntegerAssert_smallNumbersLessCase">testBigIntegerAssert_smallNumbersLessCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" hash-for-method="testBigIntegerAssert_smallNumbersMoreCase">testBigIntegerAssert_smallNumbersMoreCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Project_Test_Suite" title="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" hash-for-method="testBigIntegerAssert_smallNumbersNegativeCase">testBigIntegerAssert_smallNumbersNegativeCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_Project_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_Project_Test_Suite" class="panel Automation_Project_Test_Suite">
+          <div class="suite-Automation_Project_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.AcceptanceTests_Feature_AbstractTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isAbstractTCworks(com.organization.automation.project.spice.mix.testng.test.AbstractTestCase@1c56c60)">
+                  </a> <!-- isAbstractTCworks(com.organization.automation.project.spice.mix.testng.test.AbstractTestCase@1c56c60) -->
+                  <span class="method-name">isAbstractTCworks</span>
+                  <span class="parameters">(com.organization.automation.project.spice.mix.testng.test.AbstractTestCase@1c56c60)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Project_Test_Suite-class-passed -->
+          <div class="suite-Automation_Project_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isLocalTAFEnvOK">
+                  </a> <!-- isLocalTAFEnvOK -->
+                  <span class="method-name">isLocalTAFEnvOK</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isQAEnvOK">
+                  </a> <!-- isQAEnvOK -->
+                  <span class="method-name">isQAEnvOK</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Project_Test_Suite-class-passed -->
+          <div class="suite-Automation_Project_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigIntegerAssert_bigNumbersCase">
+                  </a> <!-- testBigIntegerAssert_bigNumbersCase -->
+                  <span class="method-name">testBigIntegerAssert_bigNumbersCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigIntegerAssert_bigNumbersEqualObjectCase">
+                  </a> <!-- testBigIntegerAssert_bigNumbersEqualObjectCase -->
+                  <span class="method-name">testBigIntegerAssert_bigNumbersEqualObjectCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigIntegerAssert_bigNumbersLessCase">
+                  </a> <!-- testBigIntegerAssert_bigNumbersLessCase -->
+                  <span class="method-name">testBigIntegerAssert_bigNumbersLessCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigIntegerAssert_bigNumbersMoreCase">
+                  </a> <!-- testBigIntegerAssert_bigNumbersMoreCase -->
+                  <span class="method-name">testBigIntegerAssert_bigNumbersMoreCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigIntegerAssert_mixNumbersLessCase">
+                  </a> <!-- testBigIntegerAssert_mixNumbersLessCase -->
+                  <span class="method-name">testBigIntegerAssert_mixNumbersLessCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigIntegerAssert_mixNumbersMoreCase">
+                  </a> <!-- testBigIntegerAssert_mixNumbersMoreCase -->
+                  <span class="method-name">testBigIntegerAssert_mixNumbersMoreCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigIntegerAssert_smallNumbersCase">
+                  </a> <!-- testBigIntegerAssert_smallNumbersCase -->
+                  <span class="method-name">testBigIntegerAssert_smallNumbersCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigIntegerAssert_smallNumbersLessCase">
+                  </a> <!-- testBigIntegerAssert_smallNumbersLessCase -->
+                  <span class="method-name">testBigIntegerAssert_smallNumbersLessCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigIntegerAssert_smallNumbersMoreCase">
+                  </a> <!-- testBigIntegerAssert_smallNumbersMoreCase -->
+                  <span class="method-name">testBigIntegerAssert_smallNumbersMoreCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigIntegerAssert_smallNumbersNegativeCase">
+                  </a> <!-- testBigIntegerAssert_smallNumbersNegativeCase -->
+                  <span class="method-name">testBigIntegerAssert_smallNumbersNegativeCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Project_Test_Suite-class-passed -->
+        </div> <!-- panel Automation_Project_Test_Suite -->
+        <div panel-name="test-xml-Automation_Project_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\github-repo\agileseph\automated-testing-concepts\spice\technology-mix\TestNG_Mix\config\automation-project-settings.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Automation Project Test Suite&quot;&gt;
+  &lt;parameter name=&quot;test-suite&quot; value=&quot;Automation Project&quot;/&gt;
+  &lt;parameter name=&quot;test-set_unit-tests&quot; value=&quot;Unit Tests on Custom Assert&quot;/&gt;
+  &lt;parameter name=&quot;test-set_abstract-tc&quot; value=&quot;Abstract TC basic run&quot;/&gt;
+  &lt;parameter name=&quot;test-set_initialization-tests&quot; value=&quot;Initialization Tests&quot;/&gt;
+  &lt;test name=&quot;AcceptanceTests&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;UnitTests&quot;&gt;
+        &lt;include name=&quot;CustomAssertTests&quot;/&gt;
+      &lt;/define&gt; &lt;!-- UnitTests --&gt;
+      &lt;define name=&quot;All&quot;&gt;
+        &lt;include name=&quot;UnitTests&quot;/&gt;
+        &lt;include name=&quot;InitializationTests&quot;/&gt;
+        &lt;include name=&quot;AbstractTCs&quot;/&gt;
+      &lt;/define&gt; &lt;!-- All --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;All&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.organization.automation.project.spice.mix.testng.*&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.AcceptanceTests_Feature_AbstractTC&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.extension.annotations.AnnotationProcessor&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.extension.annotations.History&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssert&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.extension.listener.AutomationProjectTestListener&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.extension.logging.CustomLevels&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.extension.logging.DateUtils&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.extension.logging.DemoLevelFilter&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.extension.logging.TAFLoggerFactory&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.AbstractTestCase$1&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.AbstractTestCase$2&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.AbstractTestCase$3&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.AbstractTestCase$4&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.AbstractTestCase$5&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.AbstractTestCase$6&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.AbstractTestCase$7&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.AbstractTestCase&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.data.TestDataProvider&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.ITestCase&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.set.ProjectTestSetTexture&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.set.TestSetTexture&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.TCError&quot;/&gt;
+      &lt;class name=&quot;com.organization.automation.project.spice.mix.testng.test.TCException&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AcceptanceTests --&gt;
+&lt;/suite&gt; &lt;!-- Automation Project Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_Project_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation Project Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AcceptanceTests (25 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_Project_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation Project Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Abstract.TC.basic</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isAbstractTCworks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">AbstractTCs</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isAbstractTCworks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">CustomAssertTests</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigIntegerAssert_bigNumbersCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigIntegerAssert_bigNumbersEqualObjectCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigIntegerAssert_bigNumbersLessCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigIntegerAssert_bigNumbersMoreCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigIntegerAssert_mixNumbersLessCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigIntegerAssert_mixNumbersMoreCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigIntegerAssert_smallNumbersCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigIntegerAssert_smallNumbersLessCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigIntegerAssert_smallNumbersMoreCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigIntegerAssert_smallNumbersNegativeCase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">InitializationTests</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isLocalTAFEnvOK</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isQAEnvOK</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">initLocalEnv</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isLocalTAFEnvOK</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">initQAEnv</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isQAEnvOK</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_Project_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation Project Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_Project_Test_Suite');
+function tableData_Automation_Project_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'isAbstractTCworks')
+data.setCell(0, 2, 'com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.AcceptanceTests_Feature_AbstractTC')
+data.setCell(0, 3, 31);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'isLocalTAFEnvOK')
+data.setCell(1, 2, 'com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet')
+data.setCell(1, 3, 15);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testBigIntegerAssert_bigNumbersEqualObjectCase')
+data.setCell(2, 2, 'com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testBigIntegerAssert_smallNumbersMoreCase')
+data.setCell(3, 2, 'com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testBigIntegerAssert_mixNumbersMoreCase')
+data.setCell(4, 2, 'com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testBigIntegerAssert_bigNumbersMoreCase')
+data.setCell(5, 2, 'com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testBigIntegerAssert_smallNumbersCase')
+data.setCell(6, 2, 'com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testBigIntegerAssert_smallNumbersLessCase')
+data.setCell(7, 2, 'com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testBigIntegerAssert_mixNumbersLessCase')
+data.setCell(8, 2, 'com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'isQAEnvOK')
+data.setCell(9, 2, 'com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testBigIntegerAssert_bigNumbersCase')
+data.setCell(10, 2, 'com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testBigIntegerAssert_smallNumbersNegativeCase')
+data.setCell(11, 2, 'com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testBigIntegerAssert_bigNumbersLessCase')
+data.setCell(12, 2, 'com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests')
+data.setCell(12, 3, 0);
+window.suiteTableData['Automation_Project_Test_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Project_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 ms</span>
+              <div id="times-div-Automation_Project_Test_Suite">
+              </div> <!-- times-div-Automation_Project_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_Project_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation Project Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_Project_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_Project_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpSuite(Automation Project)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpAllTests(Unit Tests on Custom Assert)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testBigIntegerAssert_bigNumbersCase</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBigIntegerAssert_bigNumbersEqualObjectCase</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBigIntegerAssert_bigNumbersLessCase</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBigIntegerAssert_bigNumbersMoreCase</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBigIntegerAssert_mixNumbersLessCase</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBigIntegerAssert_mixNumbersMoreCase</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBigIntegerAssert_smallNumbersCase</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBigIntegerAssert_smallNumbersLessCase</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isLocalTAFEnvOK</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpSet(Initialization Tests)</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBigIntegerAssert_smallNumbersMoreCase</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBigIntegerAssert_smallNumbersNegativeCase</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">78 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">isQAEnvOK</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownSet</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.AcceptanceTests_Feature_AbstractTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpSet</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">isAbstractTCworks(com.organization.automation.project.spice.mix.testng.test.AbstractTestCase@1c56c60)</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownSet</span>
+                <span class="method-start">156 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">156 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

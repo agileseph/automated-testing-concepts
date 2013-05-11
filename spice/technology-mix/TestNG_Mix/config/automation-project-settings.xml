@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Automation Project Test Suite" verbose="1" >
+ <test name="AcceptanceTests" preserve-order="true">
+  <groups>
+  	<define name="All">
+  	  <include name="UnitTests"/>
+  	  <include name="InitializationTests"/>
+      <include name="AbstractTCs"/>
+    </define>
+  	<define name="UnitTests">
+  	  <include name="CustomAssertTests"/>
+    </define>
+    <run>
+      <include name="All"/>
+    </run>
+  </groups>
+  
+   <packages>
+      <package name="com.organization.automation.project.spice.mix.testng.*"/>
+   </packages>
+</test>
+
+<parameter name="test-suite" value="Automation Project"/>
+<parameter name="test-set_initialization-tests" value="Initialization Tests"/>
+<parameter name="test-set_abstract-tc" value="Abstract TC basic run"/>
+<parameter name="test-set_unit-tests" value="Unit Tests on Custom Assert"/>
+
+</suite>

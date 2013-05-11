@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.1.5320 (stable) report, generated Sat May 11 19:42:44 EEST 2013 -->
+
+<report>
+  <stats>
+    <packages value="7"/>
+    <classes value="20"/>
+    <methods value="92"/>
+    <srcfiles value="13"/>
+    <srclines value="303"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="80%  (16/20)"/>
+      <coverage type="method, %" value="63%  (58/92)"/>
+      <coverage type="block, %" value="56%  (593/1056)"/>
+      <coverage type="line, %" value="56%  (170.2/303)"/>
+
+      <package name="com.organization.automation.project.spice.mix.testng.extension.assertions">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="25%  (1/4)"/>
+        <coverage type="block, %" value="24%  (10/41)"/>
+        <coverage type="line, %" value="18%  (2/11)"/>
+
+        <srcfile name="CustomAssert.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="25%  (1/4)"/>
+          <coverage type="block, %" value="24%  (10/41)"/>
+          <coverage type="line, %" value="18%  (2/11)"/>
+
+          <class name="CustomAssert">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="25%  (1/4)"/>
+            <coverage type="block, %" value="24%  (10/41)"/>
+            <coverage type="line, %" value="18%  (2/11)"/>
+
+            <method name="CustomAssert (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="assertNotEmpty (String []): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="assertNotEmpty (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="assertEquals (String, BigInteger, BigInteger): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="com.organization.automation.project.spice.mix.testng.extension.logging">
+        <coverage type="class, %" value="50%  (2/4)"/>
+        <coverage type="method, %" value="35%  (11/31)"/>
+        <coverage type="block, %" value="35%  (147/421)"/>
+        <coverage type="line, %" value="36%  (47/131)"/>
+
+        <srcfile name="CustomLevels.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/6)"/>
+          <coverage type="block, %" value="0%   (0/97)"/>
+          <coverage type="line, %" value="0%   (0/28)"/>
+
+          <class name="CustomLevels">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/6)"/>
+            <coverage type="block, %" value="0%   (0/97)"/>
+            <coverage type="line, %" value="0%   (0/28)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="CustomLevels (int, String, int): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toLevel (String): Level">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="toLevel (String, Level): Level">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="toLevel (int): Level">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="toLevel (int, Level): Level">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="DemoLevelFilter.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/27)"/>
+          <coverage type="line, %" value="0%   (0/9)"/>
+
+          <class name="DemoLevelFilter">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/27)"/>
+            <coverage type="line, %" value="0%   (0/9)"/>
+
+            <method name="DemoLevelFilter (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="decide (LoggingEvent): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="DateUtils.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="30%  (3/10)"/>
+          <coverage type="block, %" value="18%  (16/90)"/>
+          <coverage type="line, %" value="17%  (4/23)"/>
+
+          <class name="DateUtils">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="30%  (3/10)"/>
+            <coverage type="block, %" value="18%  (16/90)"/>
+            <coverage type="line, %" value="17%  (4/23)"/>
+
+            <method name="DateUtils (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="getMediumFormatNow (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="now_2TimeZones (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/30)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+            <method name="now_TC (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="now_TimeZone_BY (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="now_TimeZone_NY (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="setUSATimeZone (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="now (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setBelarusTimeZone (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="TAFLoggerFactory.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="62%  (8/13)"/>
+          <coverage type="block, %" value="63%  (131/207)"/>
+          <coverage type="line, %" value="61%  (43/71)"/>
+
+          <class name="TAFLoggerFactory">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="62%  (8/13)"/>
+            <coverage type="block, %" value="63%  (131/207)"/>
+            <coverage type="line, %" value="61%  (43/71)"/>
+
+            <method name="TAFLoggerFactory (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="getFileAppender (String): FileAppender">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="getLogger (Class): Logger">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="getLoggerMessagePrefix (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="printAllLevelsCodes (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="getFileAppender (): FileAppender">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="86%  (31/36)"/>
+              <coverage type="line, %" value="80%  (8/10)"/>
+            </method>
+            <method name="setUpSystemConsoleAppender (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="87%  (33/38)"/>
+              <coverage type="line, %" value="80%  (8/10)"/>
+            </method>
+            <method name="setUpConsoleAppender (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="87%  (34/39)"/>
+              <coverage type="line, %" value="80%  (8/10)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="getLogger (): Logger">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="init (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="setUpBasicSettings (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="setUpFileAppender (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="com.organization.automation.project.spice.mix.testng.extension.annotations">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (4/4)"/>
+        <coverage type="block, %" value="38%  (25/65)"/>
+        <coverage type="line, %" value="67%  (8/12)"/>
+
+        <srcfile name="AnnotationProcessor.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="38%  (25/65)"/>
+          <coverage type="line, %" value="67%  (8/12)"/>
+
+          <class name="AnnotationProcessor">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="38%  (25/65)"/>
+            <coverage type="line, %" value="67%  (8/12)"/>
+
+            <method name="process (History): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="13%  (6/46)"/>
+              <coverage type="line, %" value="33%  (2/6)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="AnnotationProcessor (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="processCustomAnnotations (Method): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="com.organization.automation.project.spice.mix.testng.test">
+        <coverage type="class, %" value="80%  (8/10)"/>
+        <coverage type="method, %" value="68%  (21/31)"/>
+        <coverage type="block, %" value="66%  (185/280)"/>
+        <coverage type="line, %" value="59%  (46.3/78)"/>
+
+        <srcfile name="TCError.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/16)"/>
+          <coverage type="line, %" value="0%   (0/8)"/>
+
+          <class name="TCError">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/16)"/>
+            <coverage type="line, %" value="0%   (0/8)"/>
+
+            <method name="TCError (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="TCError (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="TCError (String, Throwable): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="TCError (Throwable): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="TCException.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/16)"/>
+          <coverage type="line, %" value="0%   (0/8)"/>
+
+          <class name="TCException">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/16)"/>
+            <coverage type="line, %" value="0%   (0/8)"/>
+
+            <method name="TCException (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="TCException (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="TCException (String, Throwable): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="TCException (Throwable): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AbstractTestCase.java">
+          <coverage type="class, %" value="100% (8/8)"/>
+          <coverage type="method, %" value="91%  (21/23)"/>
+          <coverage type="block, %" value="75%  (185/248)"/>
+          <coverage type="line, %" value="75%  (46.3/62)"/>
+
+          <class name="AbstractTestCase">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="88%  (14/16)"/>
+            <coverage type="block, %" value="69%  (143/206)"/>
+            <coverage type="line, %" value="75%  (46.3/62)"/>
+
+            <method name="getId (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="setId (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="teardownSafely (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="35%  (6/17)"/>
+              <coverage type="line, %" value="43%  (3.4/8)"/>
+            </method>
+            <method name="run (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="40%  (30/75)"/>
+              <coverage type="line, %" value="66%  (15.8/24)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="AbstractTestCase (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="check (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="init (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="logOnPointPass (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="logOnPointStart (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (11/11)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="logOnStart (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="poststeps (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="preconditions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setup (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="steps (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="teardown (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+          <class name="AbstractTestCase$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="AbstractTestCase$1 (AbstractTestCase): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AbstractTestCase$2">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="AbstractTestCase$2 (AbstractTestCase): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AbstractTestCase$3">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="AbstractTestCase$3 (AbstractTestCase): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AbstractTestCase$4">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="AbstractTestCase$4 (AbstractTestCase): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AbstractTestCase$5">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="AbstractTestCase$5 (AbstractTestCase): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AbstractTestCase$6">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="AbstractTestCase$6 (AbstractTestCase): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AbstractTestCase$7">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="AbstractTestCase$7 (AbstractTestCase): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="com.organization.automation.project.spice.mix.testng.extension.listener">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="83%  (5/6)"/>
+        <coverage type="block, %" value="73%  (61/84)"/>
+        <coverage type="line, %" value="74%  (11.8/16)"/>
+
+        <srcfile name="AutomationProjectTestListener.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="83%  (5/6)"/>
+          <coverage type="block, %" value="73%  (61/84)"/>
+          <coverage type="line, %" value="74%  (11.8/16)"/>
+
+          <class name="AutomationProjectTestListener">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="73%  (61/84)"/>
+            <coverage type="line, %" value="74%  (11.8/16)"/>
+
+            <method name="onTestFailure (ITestResult): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/22)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="getResult (int): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="86%  (6/7)"/>
+              <coverage type="line, %" value="85%  (0.8/1)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="AutomationProjectTestListener (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="onTestStart (ITestResult): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (22/22)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="onTestSuccess (ITestResult): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (22/22)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="com.organization.automation.project.spice.mix.testng.test.data">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (2/2)"/>
+        <coverage type="block, %" value="100% (17/17)"/>
+        <coverage type="line, %" value="100% (2/2)"/>
+
+        <srcfile name="TestDataProvider.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (17/17)"/>
+          <coverage type="line, %" value="100% (2/2)"/>
+
+          <class name="TestDataProvider">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (17/17)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="TestDataProvider (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="createTestData (): Object [][]">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="com.organization.automation.project.spice.mix.testng.test.set">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (14/14)"/>
+        <coverage type="block, %" value="100% (148/148)"/>
+        <coverage type="line, %" value="100% (53/53)"/>
+
+        <srcfile name="ProjectTestSetTexture.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="block, %" value="100% (15/15)"/>
+          <coverage type="line, %" value="100% (9/9)"/>
+
+          <class name="ProjectTestSetTexture">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (15/15)"/>
+            <coverage type="line, %" value="100% (9/9)"/>
+
+            <method name="ProjectTestSetTexture (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setUpSet (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setUpTest (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="tearDownSet (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="tearDownTest (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="TestSetTexture.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (9/9)"/>
+          <coverage type="block, %" value="100% (133/133)"/>
+          <coverage type="line, %" value="100% (44/44)"/>
+
+          <class name="TestSetTexture">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (9/9)"/>
+            <coverage type="block, %" value="100% (133/133)"/>
+            <coverage type="line, %" value="100% (44/44)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="TestSetTexture (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setName (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setUpAllTests (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (33/33)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+            <method name="setUpEachTest (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (19/19)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="setUpSuiteTests (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="tearDownAllTests (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (25/25)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
+            </method>
+            <method name="tearDownEachTest (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (19/19)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+            <method name="tearDownSuiteTests (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
