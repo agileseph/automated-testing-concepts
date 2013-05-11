@@ -1,0 +1,37 @@
+<project name="Sample Project">
+    <bannerLeft>
+        <name>Left Banner sample.</name>
+        <src>images/left-banner.png</src>
+        <href>http://www.google.com/search?q=your+left+banner</href>
+    </bannerLeft>
+    <bannerRight>
+        <name>Be connected to Git hub.</name>
+        <src>images/right-banner.png</src>
+        <href>https://github.com/agileseph/automated-testing-concepts/tree/master/spice</href>
+    </bannerRight>
+
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.2.1</version>
+    </skin>
+    <custom>
+        <fluidoSkin>
+            <sideBarEnabled>true</sideBarEnabled>
+            <googlePlusOne />
+        </fluidoSkin>
+    </custom>
+
+    <body>
+        <menu ref="reports"/>
+        <menu name="Extra Reports">
+            <item name="TestNG Report" href="../surefire-reports/index.html"/>
+        </menu>
+	<menu name="Site Extra Features">
+            <item name="APT Format" href="format.html"/>
+            <item name="Xdoc Example" href="xdoc.html"/>
+            <item name="FAQ" href="faq.html"/>
+	    <item name="Project User Guide" href="../pdf/Project User Guide.pdf"/>
+        </menu>
+    </body>
+</project>

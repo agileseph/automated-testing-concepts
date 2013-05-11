@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Automation Project Test Suite" verbose="1" >
+ <test name="AcceptanceTests" preserve-order="true">
+  <groups>
+  	<define name="All">
+  	  <include name="UnitTests"/>
+  	  <include name="InitializationTests"/>
+      <include name="AbstractTCs"/>
+    </define>
+  	<define name="UnitTests">
+  	  <include name="CustomAssertTests"/>
+  	  <include name="SpringProxyTests"/>
+    </define>
+    <run>
+      <include name="All"/>
+    </run>
+  </groups>
+  
+  <classes>
+  	<class name="com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet" />
+  	<class name="com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.AcceptanceTests_Feature_AbstractTC" />
+  	<class name="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" />
+  	<class name="com.organization.automation.project.spice.mix.testng.extension.aop.spring.SpringProxyUnitTests" />
+  </classes>
+
+ </test>
+
+<parameter name="test-suite"  value="Automation Project"/>
+<parameter name="test-set_initialization-tests"  value="Initialization Tests"/>
+<parameter name="test-set_abstract-tc"  value="Abstract TC basic run"/>
+<parameter name="test-set_unit-tests"  value="Unit Tests on Custom Assert"/>
+<parameter name="test-set_unit-tests-spring-proxy"  value="Unit Tests on Spring Proxy"/>
+
+</suite>

@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">AcceptanceTests</td><td class="numi">15</td><td class="numi">15</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0,3 seconds</td><td class="numi">UnitTests CustomAssertTests AbstractTCs SpringProxyTests InitializationTests All </td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">AcceptanceTests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet</td><td><a href="#m1"><b>isLocalTAFEnvOK</b> (initLocalEnv, InitializationTests) </a></td><td class="numi">1</td><td>1368294556443</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="10">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests</td><td><a href="#m2"><b>testBigIntegerAssert_bigNumbersCase</b> (CustomAssertTests) </a></td><td class="numi">1</td><td>1368294556458</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m3"><b>testBigIntegerAssert_bigNumbersEqualObjectCase</b> (CustomAssertTests) </a></td><td class="numi">1</td><td>1368294556474</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m4"><b>testBigIntegerAssert_bigNumbersLessCase</b> (CustomAssertTests) </a></td><td class="numi">1</td><td>1368294556474</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m5"><b>testBigIntegerAssert_bigNumbersMoreCase</b> (CustomAssertTests) </a></td><td class="numi">1</td><td>1368294556474</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m6"><b>testBigIntegerAssert_mixNumbersLessCase</b> (CustomAssertTests) </a></td><td class="numi">1</td><td>1368294556474</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m7"><b>testBigIntegerAssert_mixNumbersMoreCase</b> (CustomAssertTests) </a></td><td class="numi">1</td><td>1368294556474</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m8"><b>testBigIntegerAssert_smallNumbersCase</b> (CustomAssertTests) </a></td><td class="numi">1</td><td>1368294556474</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m9"><b>testBigIntegerAssert_smallNumbersLessCase</b> (CustomAssertTests) </a></td><td class="numi">1</td><td>1368294556474</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m10"><b>testBigIntegerAssert_smallNumbersMoreCase</b> (CustomAssertTests) </a></td><td class="numi">1</td><td>1368294556474</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m11"><b>testBigIntegerAssert_smallNumbersNegativeCase</b> (CustomAssertTests) </a></td><td class="numi">1</td><td>1368294556474</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="2">com.organization.automation.project.spice.mix.testng.extension.aop.spring.SpringProxyUnitTests</td><td><a href="#m12"><b>testSpringProxy_PositiveCase</b> (SpringProxyTests) </a></td><td class="numi">1</td><td>1368294556489</td><td class="numi">188</td></tr><tr class="passedodd"><td><a href="#m13"><b>testSpringProxy_PositiveCaseWithAdvice</b> (SpringProxyTests) </a></td><td class="numi">1</td><td>1368294556677</td><td class="numi">16</td></tr>
+<tr class="passedeven"><td rowspan="1">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet</td><td><a href="#m14"><b>isQAEnvOK</b> (initQAEnv, InitializationTests) </a></td><td class="numi">1</td><td>1368294556693</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.AcceptanceTests_Feature_AbstractTC</td><td><a href="#m15"><b>isAbstractTCworks</b> (Abstract.TC.basic, AbstractTCs) </a></td><td class="numi">1</td><td>1368294556708</td><td class="numi">47</td></tr>
+</table>
+<h1>AcceptanceTests</h1>
+<h2 id="m1">com.organization.automation.project.spice.mix.testng.extension.aop.spring.SpringProxyUnitTests:testSpringProxy_PositiveCaseWithAdvice</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests:testBigIntegerAssert_bigNumbersLessCase</h2>
+<div style="padding-left:3em">
+<p>Actual number should be equal expected. expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssert.assertEquals(CustomAssert.java:39)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests.testBigIntegerAssert_bigNumbersLessCase(CustomAssertUnitTests.java:105)
+<br/>31 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests:testBigIntegerAssert_bigNumbersMoreCase</h2>
+<div style="padding-left:3em">
+<p>Actual number should be equal expected. expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssert.assertEquals(CustomAssert.java:39)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests.testBigIntegerAssert_bigNumbersMoreCase(CustomAssertUnitTests.java:97)
+<br/>31 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests:testBigIntegerAssert_bigNumbersCase</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests:testBigIntegerAssert_smallNumbersMoreCase</h2>
+<div style="padding-left:3em">
+<p>Actual number should be equal expected. expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssert.assertEquals(CustomAssert.java:39)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests.testBigIntegerAssert_smallNumbersMoreCase(CustomAssertUnitTests.java:81)
+<br/>31 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests:testBigIntegerAssert_bigNumbersEqualObjectCase</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet:isQAEnvOK</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests:testBigIntegerAssert_smallNumbersNegativeCase</h2>
+<div style="padding-left:3em">
+<p>Actual number should be equal expected. expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssert.assertEquals(CustomAssert.java:39)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests.testBigIntegerAssert_smallNumbersNegativeCase(CustomAssertUnitTests.java:129)
+<br/>31 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.InitializationTests_TestSet:isLocalTAFEnvOK</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests:testBigIntegerAssert_smallNumbersCase</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests:testBigIntegerAssert_mixNumbersMoreCase</h2>
+<div style="padding-left:3em">
+<p>Actual number should be equal expected. expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssert.assertEquals(CustomAssert.java:39)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests.testBigIntegerAssert_mixNumbersMoreCase(CustomAssertUnitTests.java:113)
+<br/>31 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.organization.automation.project.spice.mix.testng.feature.abstract_tc.tests.AcceptanceTests_Feature_AbstractTC:isAbstractTCworks</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>com.organization.automation.project.spice.mix.testng.test.AbstractTestCase@1fa1bb6</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests:testBigIntegerAssert_smallNumbersLessCase</h2>
+<div style="padding-left:3em">
+<p>Actual number should be equal expected. expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssert.assertEquals(CustomAssert.java:39)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests.testBigIntegerAssert_smallNumbersLessCase(CustomAssertUnitTests.java:89)
+<br/>31 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests:testBigIntegerAssert_mixNumbersLessCase</h2>
+<div style="padding-left:3em">
+<p>Actual number should be equal expected. expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssert.assertEquals(CustomAssert.java:39)
+<br/>at com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests.testBigIntegerAssert_mixNumbersLessCase(CustomAssertUnitTests.java:121)
+<br/>31 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.organization.automation.project.spice.mix.testng.extension.aop.spring.SpringProxyUnitTests:testSpringProxy_PositiveCase</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
