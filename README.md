@@ -16,3 +16,7 @@ TODO: to implement.
 Authors
 -------
 * Viktar Karanevich
+
+Special Thanks
+--------------
+* Kate Astashonak for her amazing ideas about the art decoration of projects.
