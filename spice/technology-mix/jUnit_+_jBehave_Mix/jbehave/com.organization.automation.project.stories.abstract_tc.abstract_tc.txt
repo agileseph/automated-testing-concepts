@@ -1,0 +1,54 @@
+Abstract TC Story
+(com/organization/automation/project/stories/abstract_tc/abstract_tc.story)
+Meta:
+@tag component:abstract_tc
+
+Narrative:
+In order to develop a tiny test automation framework
+As a framework developer
+I want to use jBehave core API
+Scenario: Abstract TC works
+Given abstract test case with id #1
+When abstract test case run
+Then result should be [PASS]
+
+Scenario: Abstract TC with examples works
+Examples:
+Given abstract test case with id #<id> and name '<tc_name>'
+When abstract test case run
+Then result of exemplified TC should be [<result>]
+
+|id|tc_name|result|
+|1|The first TC|PASS|
+|2|The second TC|FAIL|
+|3|The third TC|PASS|
+
+Example: {id=1, tc_name=The first TC, result=PASS}
+Given abstract test case with id #1 and name 'The first TC'
+When abstract test case run
+Then result of exemplified TC should be [PASS]
+
+Example: {id=2, tc_name=The second TC, result=FAIL}
+Given abstract test case with id #2 and name 'The second TC'
+When abstract test case run
+Then result of exemplified TC should be [FAIL] (FAILED)
+(org.junit.ComparisonFailure: expected:<[PASS]> but was:<[FAIL]>)
+
+Example: {id=3, tc_name=The third TC, result=PASS}
+Given abstract test case with id #3 and name 'The third TC'
+When abstract test case run
+Then result of exemplified TC should be [PASS]
+
+
+org.junit.ComparisonFailure: expected:<[PASS]> but was:<[FAIL]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.organization.automation.project.spice.mix.bdd.jbehave.AbstractTCSteps.checkExamplifiedTC(AbstractTCSteps.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:550)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:499)
+...
+

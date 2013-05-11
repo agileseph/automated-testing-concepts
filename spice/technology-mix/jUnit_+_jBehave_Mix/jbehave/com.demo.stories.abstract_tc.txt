@@ -1,0 +1,8 @@
+
+(com/demo/stories/abstract_tc.story)
+Scenario: Abstract TC works
+Given abstract test case with id #1
+When abstract test case run
+Then result should be [PASS]
+
+

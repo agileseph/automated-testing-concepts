@@ -1,0 +1,10 @@
+<story path="com/organization/automation/project/stories/abstract_tc.story" title="">
+<meta>
+<property keyword="@" name="tag" value="component:abstract_tc"/>
+</meta>
+<scenario keyword="Scenario:" title="Abstract TC works">
+<step outcome="successful">Given abstract test case with id <parameter>#1</parameter></step>
+<step outcome="successful">When abstract test case run</step>
+<step outcome="successful">Then result should be [PASS]</step>
+</scenario>
+</story>

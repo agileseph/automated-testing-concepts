@@ -1,0 +1,7 @@
+<story path="com/demo/stories/abstract_tc.story" title="">
+<scenario keyword="Scenario:" title="Abstract TC works">
+<step outcome="successful">Given abstract test case with id <parameter>#1</parameter></step>
+<step outcome="successful">When abstract test case run</step>
+<step outcome="successful">Then result should be [PASS]</step>
+</scenario>
+</story>

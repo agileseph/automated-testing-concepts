@@ -1,0 +1,13 @@
+com.organization.automation.project.spice.mix.bdd.jbehave
+com.organization.automation.project.spice.mix.bdd.jbehave.extension.reporter
+com.organization.automation.project.spice.mix.bdd.jbehave.extension.runner
+com.organization.automation.project.spice.mix.junit
+com.organization.automation.project.spice.mix.junit.extension.annotations
+com.organization.automation.project.spice.mix.junit.extension.assertions
+com.organization.automation.project.spice.mix.junit.extension.logging
+com.organization.automation.project.spice.mix.junit.extension.monitoring
+com.organization.automation.project.spice.mix.junit.system
+com.organization.automation.project.spice.mix.junit.test
+com.organization.automation.project.spice.mix.junit.test.set
+com.organization.automation.project.spice.mix.junit.test.suite
+de.codecentric.jbehave.junit.monitoring

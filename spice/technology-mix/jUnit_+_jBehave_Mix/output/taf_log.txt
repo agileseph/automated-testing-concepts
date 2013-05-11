@@ -1,0 +1,86 @@
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [STORY] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              description:    
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              file name:     BeforeStories 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              relative path: BeforeStories 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              meta info:     Meta[properties={}] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [STORY] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                     [ DONE ]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [STORY] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              description:   Abstract TC Story 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              file name:     abstract_tc.story 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              relative path: com/organization/automation/project/stories/abstract_tc/abstract_tc.story 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              meta info:     Meta[properties={tag=component:abstract_tc}] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [NARRATIVE] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              In order to develop a tiny test automation framework 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              As a framework developer 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              I want to use jBehave core API 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [SCENARIO] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              Abstract TC works 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [STEPS] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              Given abstract test case with id #1 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              When abstract test case run 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              Then result should be [PASS] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [SCENARIO] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                     [ DONE ]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [SCENARIO] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              Abstract TC with examples works 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [STEPS] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [EXAMPLES] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]             General scenario: 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]             Given abstract test case with id #<id> and name '<tc_name>' 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]             When abstract test case run 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]             Then result of exemplified TC should be [<result>] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]             Table of examples: 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]             |id|tc_name|result| 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]             |1|The first TC|PASS| 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]             |2|The second TC|PASS| 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]             |3|The third TC|PASS| 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [EXAMPLE]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              [id = 1, tc_name = The first TC, result = PASS] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              Given abstract test case with id #1 and name 'The first TC' 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              When abstract test case run 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              Then result of exemplified TC should be [PASS] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [EXAMPLE]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              [id = 2, tc_name = The second TC, result = PASS] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              Given abstract test case with id #2 and name 'The second TC' 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              When abstract test case run 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              Then result of exemplified TC should be [PASS] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [EXAMPLE]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              [id = 3, tc_name = The third TC, result = PASS] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              Given abstract test case with id #3 and name 'The third TC' 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              When abstract test case run 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              Then result of exemplified TC should be [PASS] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [EXAMPLES] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                     [ DONE ]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [SCENARIO] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                     [ DONE ]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [STORY] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                     [ DONE ]  
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [STORY] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              description:    
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              file name:     AfterStories 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              relative path: AfterStories 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]              meta info:     Meta[properties={}] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]  [STORY] 
+[11 May 2013 PM 02:43:38.099 GMT+03:00][LOG][INFO]                                                                     [ DONE ]  

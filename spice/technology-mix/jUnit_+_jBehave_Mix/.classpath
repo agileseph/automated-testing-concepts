@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/junit/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="lib/other/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/other/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/other/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jbehave/jbehave-core-3.7.5.jar"/>
+	<classpathentry kind="lib" path="lib/other/paranamer-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/other/hamcrest-integration-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/other/hamcrest-library-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/other/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/other/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="lib/other/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/other/plexus-utils-3.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/other/freemarker-2.3.19.jar"/>
+	<classpathentry kind="lib" path="lib/other/xstream-1.4.4.jar"/>
+	<classpathentry kind="lib" path="lib/other/xpp3_min-1.1.4c.jar"/>
+	<classpathentry excluding="**/*.java" kind="src" path="resources"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

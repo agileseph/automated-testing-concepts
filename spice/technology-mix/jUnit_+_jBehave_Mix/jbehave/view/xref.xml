@@ -1,0 +1,39 @@
+<xref>
+  <whenMade>1365785515652</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter></metaFilter>
+  <meta>
+    <string>tag=component:abstract_tc</string>
+  </meta>
+  <stories>
+    <story>
+      <description>Abstract TC Story</description>
+      <narrative>In order to develop a tiny test automation framework
+As a framework developer
+I want to use jBehave core API
+</narrative>
+      <name>abstract_tc.story</name>
+      <path>com/organization/automation/project/stories/abstract_tc/abstract_tc.story</path>
+      <html>com.organization.automation.project.stories.abstract_tc.abstract_tc.html</html>
+      <meta>tag=component:abstract_tc
+</meta>
+      <scenarios>Scenario:Abstract TC works
+Given abstract test case with id #1
+When abstract test case run
+Then result should be [PASS]
+
+
+Scenario:Abstract TC with examples works
+Given abstract test case with id #&lt;id&gt; and name &apos;&lt;tc_name&gt;&apos;
+When abstract test case run
+Then result of exemplified TC should be [&lt;result&gt;]
+
+
+</scenarios>
+      <passed>false</passed>
+      <started>1365785514949</started>
+      <duration>453</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

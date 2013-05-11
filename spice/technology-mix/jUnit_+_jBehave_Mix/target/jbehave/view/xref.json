@@ -1,0 +1,24 @@
+{"xref": {
+  "whenMade": 1368272618880,
+  "createdBy": "JBehave",
+  "metaFilter": "",
+  "meta": [
+    "tag=component:abstract_tc"
+  ],
+  "stories": [
+    {
+      "description": "Abstract TC Story",
+      "narrative": "In order to develop a tiny test automation framework\u000aAs a framework developer\u000aI want to use jBehave core API\u000a",
+      "name": "abstract_tc.story",
+      "path": "com/organization/automation/project/stories/abstract_tc/abstract_tc.story",
+      "html": "com.organization.automation.project.stories.abstract_tc.abstract_tc.html",
+      "meta": "tag=component:abstract_tc\u000a",
+      "scenarios": "Scenario:Abstract TC works\u000aGiven abstract test case with id #1\u000aWhen abstract test case run\u000aThen result should be [PASS]\u000a\u000a\u000aScenario:Abstract TC with examples works\u000aGiven abstract test case with id #<id> and name '<tc_name>'\u000aWhen abstract test case run\u000aThen result of exemplified TC should be [<result>]\u000a\u000a\u000a",
+      "passed": true,
+      "started": 1368272618677,
+      "duration": 16
+    }
+  ],
+  "stepMatches": [
+  ]
+}}

@@ -1,0 +1,54 @@
+<story path="com/organization/automation/project/stories/abstract_tc/abstract_tc.story" title="Abstract TC Story">
+<meta>
+<property keyword="@" name="tag" value="component:abstract_tc"/>
+</meta>
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">develop a tiny test automation framework</inOrderTo>
+  <asA keyword="As a">framework developer</asA>
+  <iWantTo keyword="I want to">use jBehave core API</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Abstract TC works">
+<step outcome="successful">Given abstract test case with id <parameter>#1</parameter></step>
+<step outcome="successful">When abstract test case run</step>
+<step outcome="successful">Then result should be [PASS]</step>
+</scenario>
+<scenario keyword="Scenario:" title="Abstract TC with examples works">
+<examples keyword="Examples:">
+<step>Given abstract test case with id #&lt;id&gt; and name &apos;&lt;tc_name&gt;&apos;</step>
+<step>When abstract test case run</step>
+<step>Then result of exemplified TC should be [&lt;result&gt;]</step>
+<parameters>
+<names><name>id</name><name>tc_name</name><name>result</name></names>
+<values><value>1</value><value>The first TC</value><value>PASS</value></values>
+<values><value>2</value><value>The second TC</value><value>FAIL</value></values>
+<values><value>3</value><value>The third TC</value><value>PASS</value></values>
+</parameters>
+
+<example keyword="Example:">{id=1, tc_name=The first TC, result=PASS}</example>
+<step outcome="successful">Given abstract test case with id <parameter>#<parameter>1</parameter> and name &apos;<parameter>The first TC</parameter>&apos;</parameter></step>
+<step outcome="successful">When abstract test case run</step>
+<step outcome="successful">Then result of exemplified TC should be [<parameter>PASS</parameter>]</step>
+
+<example keyword="Example:">{id=2, tc_name=The second TC, result=FAIL}</example>
+<step outcome="successful">Given abstract test case with id <parameter>#<parameter>2</parameter> and name &apos;<parameter>The second TC</parameter>&apos;</parameter></step>
+<step outcome="successful">When abstract test case run</step>
+<step outcome="failed" keyword="FAILED">Then result of exemplified TC should be [<parameter>FAIL</parameter>]<failure>org.junit.ComparisonFailure: expected:&lt;[PASS]&gt; but was:&lt;[FAIL]&gt;</failure></step>
+
+<example keyword="Example:">{id=3, tc_name=The third TC, result=PASS}</example>
+<step outcome="successful">Given abstract test case with id <parameter>#<parameter>3</parameter> and name &apos;<parameter>The third TC</parameter>&apos;</parameter></step>
+<step outcome="successful">When abstract test case run</step>
+<step outcome="successful">Then result of exemplified TC should be [<parameter>PASS</parameter>]</step>
+</examples>
+<failure>org.junit.ComparisonFailure: expected:&lt;[PASS]&gt; but was:&lt;[FAIL]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.organization.automation.project.spice.mix.bdd.jbehave.AbstractTCSteps.checkExamplifiedTC(AbstractTCSteps.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:550)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:499)
+...</failure>
+</scenario>
+</story>

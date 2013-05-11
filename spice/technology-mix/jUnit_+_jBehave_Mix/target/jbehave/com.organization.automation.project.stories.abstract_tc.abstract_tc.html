@@ -1,0 +1,57 @@
+<div class="story">
+<h1>Abstract TC Story</h1>
+<div class="path">com/organization/automation/project/stories/abstract_tc/abstract_tc.story</div>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@tag component:abstract_tc</div>
+</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> develop a tiny test automation framework</div>
+<div class="element asA"><span class="keyword asA">As a</span> framework developer</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> use jBehave core API</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Abstract TC works</h2>
+<div class="step successful">Given abstract test case with id <span class="step parameter">#1</span></div>
+<div class="step successful">When abstract test case run</div>
+<div class="step successful">Then result should be [PASS]</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Abstract TC with examples works</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given abstract test case with id #&lt;id&gt; and name '&lt;tc_name&gt;'</div>
+<div class="step">When abstract test case run</div>
+<div class="step">Then result of exemplified TC should be [&lt;result&gt;]</div>
+<table>
+<thead>
+<tr>
+<th>id</th><th>tc_name</th><th>result</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td><td>The first TC</td><td>PASS</td></tr>
+<tr>
+<td>2</td><td>The second TC</td><td>PASS</td></tr>
+<tr>
+<td>3</td><td>The third TC</td><td>PASS</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {id=1, tc_name=The first TC, result=PASS}</h3>
+<div class="step successful">Given abstract test case with id <span class="step parameter">#<span class="step parameter">1</span> and name '<span class="step parameter">The first TC</span>'</span></div>
+<div class="step successful">When abstract test case run</div>
+<div class="step successful">Then result of exemplified TC should be [<span class="step parameter">PASS</span>]</div>
+
+<h3 class="example">Example: {id=2, tc_name=The second TC, result=PASS}</h3>
+<div class="step successful">Given abstract test case with id <span class="step parameter">#<span class="step parameter">2</span> and name '<span class="step parameter">The second TC</span>'</span></div>
+<div class="step successful">When abstract test case run</div>
+<div class="step successful">Then result of exemplified TC should be [<span class="step parameter">PASS</span>]</div>
+
+<h3 class="example">Example: {id=3, tc_name=The third TC, result=PASS}</h3>
+<div class="step successful">Given abstract test case with id <span class="step parameter">#<span class="step parameter">3</span> and name '<span class="step parameter">The third TC</span>'</span></div>
+<div class="step successful">When abstract test case run</div>
+<div class="step successful">Then result of exemplified TC should be [<span class="step parameter">PASS</span>]</div>
+</div>
+</div>
+</div>
