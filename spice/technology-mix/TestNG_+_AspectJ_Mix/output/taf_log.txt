@@ -1,0 +1,153 @@
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SUITE]        =================================================================== 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SUITE]                    Test Suite: Automation Project 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SUITE]        =================================================================== 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SET]                      Test Set: Initialization Tests 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][BEFORE] [ALL] start 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][BEFORE] [ALL] end 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] start 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] end 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: isLocalTAFEnvOK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [INIT] local env started 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] start 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] end 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SET]                      Test Set: Unit Tests on Custom Assert 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_bigNumbersCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_bigNumbersEqualObjectCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_bigNumbersLessCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_bigNumbersMoreCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_mixNumbersLessCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_mixNumbersMoreCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_smallNumbersCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_smallNumbersLessCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_smallNumbersMoreCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_smallNumbersNegativeCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] start 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] end 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: isQAEnvOK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] before run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [INIT] QA env started 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [HOOK] after run test method 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] start 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] end 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][AFTER]  [ALL] start 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST][AFTER]  [ALL] end 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SET]                                                          Test Set:  [ DONE ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testAspectJProxy_PositiveCase 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Control points:  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] preconditions  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] init  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] setup  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] steps  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] poststeps  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] check  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] teardown  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Description: testAspectJProxy_PositiveCaseWithConstructorParameter 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         Control points:  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] preconditions  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] init  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] setup  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] steps  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] poststeps  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] check  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         [POINT] teardown  
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SUITE]        =================================================================== 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SUITE]                                                      Test Suite:  [ DONE ] 
+[11 May 2013 PM 11:40:40.177 GMT+03:00][LOG][INFO] [SUITE]        =================================================================== 
