@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="0.91">
+  <channel>
+    <title>TestNG and AspectJ Spring AOP Mix - Checkstyle report</title>
+    <link>https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix</link>
+    <description>TestNG and AspectJ Spring AOP Mix - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2013</copyright>
+    <item>
+      <title>File: 23,
+             Errors: 0,
+             Warnings: 46,
+             Infos: 0
+      </title>
+            <link>https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html</link>
+      <description>
+        <p>Click <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.aop.spring.AspectJSpringProxyUnitTests.java">com/organization/automation/project/spice/mix/testng/extension/aop/spring/AspectJSpringProxyUnitTests.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.annotations.History.java">com/organization/automation/project/spice/mix/testng/extension/annotations/History.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.aop.aspectjspring.TCSample.java">com/organization/automation/project/spice/mix/aop/aspectjspring/TCSample.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.aop.aspectjspring.LogStep.java">com/organization/automation/project/spice/mix/aop/aspectjspring/LogStep.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.aop.aspectjspring.TCProxy.java">com/organization/automation/project/spice/mix/aop/aspectjspring/TCProxy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.test.set.ProjectTestSetTexture.java">com/organization/automation/project/spice/mix/testng/test/set/ProjectTestSetTexture.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.java">com/organization/automation/project/spice/mix/aop/aspectjspring/LogAspect.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.test.TCError.java">com/organization/automation/project/spice/mix/testng/test/TCError.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssert.java">com/organization/automation/project/spice/mix/testng/extension/assertions/CustomAssert.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.aop.spring.InitializationTests_TestSet.java">com/organization/automation/project/spice/mix/testng/extension/aop/spring/InitializationTests_TestSet.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.test.data.TestDataProvider.java">com/organization/automation/project/spice/mix/testng/test/data/TestDataProvider.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.logging.CustomLevels.java">com/organization/automation/project/spice/mix/testng/extension/logging/CustomLevels.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.annotations.AnnotationProcessor.java">com/organization/automation/project/spice/mix/testng/extension/annotations/AnnotationProcessor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.logging.TAFLoggerFactory.java">com/organization/automation/project/spice/mix/testng/extension/logging/TAFLoggerFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.logging.DemoLevelFilter.java">com/organization/automation/project/spice/mix/testng/extension/logging/DemoLevelFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests.java">com/organization/automation/project/spice/mix/testng/extension/assertions/CustomAssertUnitTests.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  15
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.aop.aspectjspring.LogRun.java">com/organization/automation/project/spice/mix/aop/aspectjspring/LogRun.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.listener.AutomationProjectTestListener.java">com/organization/automation/project/spice/mix/testng/extension/listener/AutomationProjectTestListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.test.TCException.java">com/organization/automation/project/spice/mix/testng/test/TCException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.test.ITestCase.java">com/organization/automation/project/spice/mix/testng/test/ITestCase.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.extension.logging.DateUtils.java">com/organization/automation/project/spice/mix/testng/extension/logging/DateUtils.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.test.set.TestSetTexture.java">com/organization/automation/project/spice/mix/testng/test/set/TestSetTexture.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/agileseph/automated-testing-concepts/tree/master/spice/technology-mix/TestNG_+_AspectJ_Spring_Mix/checkstyle.html#com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.java">com/organization/automation/project/spice/mix/testng/test/AbstractTestCase.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

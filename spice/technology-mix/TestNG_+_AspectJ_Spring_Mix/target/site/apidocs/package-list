@@ -1,0 +1,8 @@
+com.organization.automation.project.spice.mix.aop.aspectjspring
+com.organization.automation.project.spice.mix.testng.extension.annotations
+com.organization.automation.project.spice.mix.testng.extension.assertions
+com.organization.automation.project.spice.mix.testng.extension.listener
+com.organization.automation.project.spice.mix.testng.extension.logging
+com.organization.automation.project.spice.mix.testng.test
+com.organization.automation.project.spice.mix.testng.test.data
+com.organization.automation.project.spice.mix.testng.test.set

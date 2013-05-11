@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="com.organization.automation.project.spice.mix.aop.aspectjspring">
+            <Stats>
+                <TotalClasses>5</TotalClasses>
+                <ConcreteClasses>3</ConcreteClasses>
+                <AbstractClasses>2</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>8</Ce>
+                <A>0.4</A>
+                <I>0.89</I>
+                <D>0.29</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="LogRun.java">
+                    com.organization.automation.project.spice.mix.aop.aspectjspring.LogRun
+                </Class>
+                <Class sourceFile="LogStep.java">
+                    com.organization.automation.project.spice.mix.aop.aspectjspring.LogStep
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="LogAspect.java">
+                    com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect
+                </Class>
+                <Class sourceFile="TCProxy.java">
+                    com.organization.automation.project.spice.mix.aop.aspectjspring.TCProxy
+                </Class>
+                <Class sourceFile="TCSample.java">
+                    com.organization.automation.project.spice.mix.aop.aspectjspring.TCSample
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.testng.extension.logging</Package>
+                <Package>com.organization.automation.project.spice.mix.testng.test</Package>
+                <Package>java.lang</Package>
+                <Package>java.lang.annotation</Package>
+                <Package>java.util</Package>
+                <Package>org.apache.log4j</Package>
+                <Package>org.aspectj.lang</Package>
+                <Package>org.springframework.aop.aspectj.annotation</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>com.organization.automation.project.spice.mix.testng.test.data</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.testng.extension.annotations">
+            <Stats>
+                <TotalClasses>2</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>5</Ce>
+                <A>0.5</A>
+                <I>0.83</I>
+                <D>0.33</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="History.java">
+                    com.organization.automation.project.spice.mix.testng.extension.annotations.History
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="AnnotationProcessor.java">
+                    com.organization.automation.project.spice.mix.testng.extension.annotations.AnnotationProcessor
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.testng.extension.logging</Package>
+                <Package>java.lang</Package>
+                <Package>java.lang.annotation</Package>
+                <Package>java.lang.reflect</Package>
+                <Package>org.apache.log4j</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>com.organization.automation.project.spice.mix.testng.extension.listener</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.testng.extension.assertions">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>3</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="CustomAssert.java">
+                    com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssert
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.math</Package>
+                <Package>org.testng</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.testng.extension.listener">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>6</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="AutomationProjectTestListener.java">
+                    com.organization.automation.project.spice.mix.testng.extension.listener.AutomationProjectTestListener
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.testng.extension.annotations</Package>
+                <Package>com.organization.automation.project.spice.mix.testng.extension.logging</Package>
+                <Package>java.lang</Package>
+                <Package>org.apache.log4j</Package>
+                <Package>org.testng</Package>
+                <Package>org.testng.internal</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.testng.extension.logging">
+            <Stats>
+                <TotalClasses>4</TotalClasses>
+                <ConcreteClasses>4</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>5</Ca>
+                <Ce>6</Ce>
+                <A>0</A>
+                <I>0.55</I>
+                <D>0.45</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="CustomLevels.java">
+                    com.organization.automation.project.spice.mix.testng.extension.logging.CustomLevels
+                </Class>
+                <Class sourceFile="DateUtils.java">
+                    com.organization.automation.project.spice.mix.testng.extension.logging.DateUtils
+                </Class>
+                <Class sourceFile="DemoLevelFilter.java">
+                    com.organization.automation.project.spice.mix.testng.extension.logging.DemoLevelFilter
+                </Class>
+                <Class sourceFile="TAFLoggerFactory.java">
+                    com.organization.automation.project.spice.mix.testng.extension.logging.TAFLoggerFactory
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.text</Package>
+                <Package>java.util</Package>
+                <Package>org.apache.log4j</Package>
+                <Package>org.apache.log4j.spi</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>com.organization.automation.project.spice.mix.aop.aspectjspring</Package>
+                <Package>com.organization.automation.project.spice.mix.testng.extension.annotations</Package>
+                <Package>com.organization.automation.project.spice.mix.testng.extension.listener</Package>
+                <Package>com.organization.automation.project.spice.mix.testng.test</Package>
+                <Package>com.organization.automation.project.spice.mix.testng.test.set</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.testng.test">
+            <Stats>
+                <TotalClasses>4</TotalClasses>
+                <ConcreteClasses>3</ConcreteClasses>
+                <AbstractClasses>1</AbstractClasses>
+                <Ca>2</Ca>
+                <Ce>4</Ce>
+                <A>0.25</A>
+                <I>0.67</I>
+                <D>0.08</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="ITestCase.java">
+                    com.organization.automation.project.spice.mix.testng.test.ITestCase
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="AbstractTestCase.java">
+                    com.organization.automation.project.spice.mix.testng.test.AbstractTestCase
+                </Class>
+                <Class sourceFile="TCError.java">
+                    com.organization.automation.project.spice.mix.testng.test.TCError
+                </Class>
+                <Class sourceFile="TCException.java">
+                    com.organization.automation.project.spice.mix.testng.test.TCException
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.testng.extension.logging</Package>
+                <Package>java.lang</Package>
+                <Package>org.apache.log4j</Package>
+                <Package>org.springframework.aop.framework</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>com.organization.automation.project.spice.mix.aop.aspectjspring</Package>
+                <Package>com.organization.automation.project.spice.mix.testng.test.data</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.testng.test.data">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>4</Ce>
+                <A>0</A>
+                <I>0.8</I>
+                <D>0.2</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="TestDataProvider.java">
+                    com.organization.automation.project.spice.mix.testng.test.data.TestDataProvider
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.aop.aspectjspring</Package>
+                <Package>com.organization.automation.project.spice.mix.testng.test</Package>
+                <Package>com.organization.automation.project.spice.mix.testng.test.set</Package>
+                <Package>java.lang</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>com.organization.automation.project.spice.mix.testng.test.set</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="com.organization.automation.project.spice.mix.testng.test.set">
+            <Stats>
+                <TotalClasses>2</TotalClasses>
+                <ConcreteClasses>2</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>4</Ce>
+                <A>0</A>
+                <I>0.8</I>
+                <D>0.2</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="ProjectTestSetTexture.java">
+                    com.organization.automation.project.spice.mix.testng.test.set.ProjectTestSetTexture
+                </Class>
+                <Class sourceFile="TestSetTexture.java">
+                    com.organization.automation.project.spice.mix.testng.test.set.TestSetTexture
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.organization.automation.project.spice.mix.testng.extension.logging</Package>
+                <Package>com.organization.automation.project.spice.mix.testng.test.data</Package>
+                <Package>java.lang</Package>
+                <Package>org.apache.log4j</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>com.organization.automation.project.spice.mix.testng.test.data</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="java.io">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang.annotation">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang.reflect">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.math">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.text">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.log4j">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.apache.log4j.spi">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.aspectj.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.springframework.aop.aspectj.annotation">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.springframework.aop.framework">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.testng">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.testng.internal">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+    </Packages>
+
+    <Cycles>
+        <Package Name="com.organization.automation.project.spice.mix.testng.test.data">
+            <Package>com.organization.automation.project.spice.mix.testng.test.set</Package>
+            <Package>com.organization.automation.project.spice.mix.testng.test.data</Package>
+        </Package>
+
+        <Package Name="com.organization.automation.project.spice.mix.testng.test.set">
+            <Package>com.organization.automation.project.spice.mix.testng.test.data</Package>
+            <Package>com.organization.automation.project.spice.mix.testng.test.set</Package>
+        </Package>
+
+    </Cycles>
+</JDepend>

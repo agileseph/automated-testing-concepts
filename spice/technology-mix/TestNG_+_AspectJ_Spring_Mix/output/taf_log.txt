@@ -1,0 +1,288 @@
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SUITE]        =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SUITE]                    Test Suite: Automation Project 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SUITE]        =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]                      Test Set: Initialization Tests 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [ALL] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [ALL] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: isLocalTAFEnvOK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         [INIT] local env started 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]                      Test Set: Unit Tests on Custom Assert 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_bigNumbersEqualObjectCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_bigNumbersCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_smallNumbersNegativeCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_smallNumbersCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_mixNumbersMoreCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_mixNumbersLessCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_bigNumbersLessCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_smallNumbersLessCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_bigNumbersMoreCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testBigIntegerAssert_smallNumbersMoreCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: isQAEnvOK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         [INIT] QA env started 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [ALL] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [ALL] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]                                                          Test Set:  [ DONE ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]                      Test Set: Unit Tests on AspectJ Spring Proxy 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [ALL] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [ALL] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testAspectJSpringProxy_PositiveCase 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found AspectJ method: public void com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestRun(org.aspectj.lang.JoinPoint) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found AspectJ method: public java.lang.Object com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestStep(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Creating CGLIB2 proxy: target source is SingletonTargetSource for target object [com.organization.automation.project.spice.mix.testng.test.AbstractTestCase@2f48d2] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.setId(java.lang.String) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.preconditions() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.steps() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.poststeps() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.teardownSafely() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.run() throws com.organization.automation.project.spice.mix.testng.test.TCException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.check() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.init() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.setup() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public java.lang.String com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.getId() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.teardown() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found finalize() method - using NO_OVERRIDE 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found 'hashCode' method: public native int java.lang.Object.hashCode() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public java.lang.String java.lang.Object.toString() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testAspectJSpringProxy_PositiveCaseWithAspect 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found AspectJ method: public void com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestRun(org.aspectj.lang.JoinPoint) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found AspectJ method: public java.lang.Object com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestStep(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Creating CGLIB2 proxy: target source is SingletonTargetSource for target object [com.organization.automation.project.spice.mix.testng.test.AbstractTestCase@171f189] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][BEFORE] [EACH] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         Description: testAspectJSpringProxy_PositiveCaseWithConstructorParameter 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found AspectJ method: public void com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestRun(org.aspectj.lang.JoinPoint) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found AspectJ method: public java.lang.Object com.organization.automation.project.spice.mix.aop.aspectjspring.LogAspect.logTestStep(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Creating CGLIB2 proxy: target source is SingletonTargetSource for target object [com.organization.automation.project.spice.mix.aop.aspectjspring.TCSample@364641] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.setId(java.lang.String) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.preconditions() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.steps() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.poststeps() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.teardownSafely() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.run() throws com.organization.automation.project.spice.mix.testng.test.TCException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.check() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.init() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.setup() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public java.lang.String com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.getId() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public void com.organization.automation.project.spice.mix.testng.test.AbstractTestCase.teardown() throws java.lang.Exception 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found finalize() method - using NO_OVERRIDE 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found 'hashCode' method: public native int java.lang.Object.hashCode() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Must expose proxy on advised method: public java.lang.String java.lang.Object.toString() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor) 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][DEBUG] Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass() 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ------------------------------------------------------------------- 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]                                                                    [ PASS ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ******************************************************************* 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [EACH] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [ALL] start 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]         ... 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST][AFTER]  [ALL] end 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [TEST]_____________________ 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]                                                          Test Set:  [ DONE ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SET]          =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SUITE]        =================================================================== 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SUITE]                                                      Test Suite:  [ DONE ] 
+[11 May 2013 PM 10:11:58.349 GMT+03:00][LOG][INFO] [SUITE]        =================================================================== 

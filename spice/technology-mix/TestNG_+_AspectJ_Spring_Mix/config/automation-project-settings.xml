@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Automation Project Test Suite" verbose="1" >
+ <test name="AcceptanceTests" preserve-order="true">
+  <groups>
+  	<define name="All">
+  	  <include name="UnitTests"/>
+  	  <include name="InitializationTests"/>
+    </define>
+  	<define name="UnitTests">
+  	  <include name="AspectJSpringProxyTests"/>
+  	  <include name="CustomAssertTests"/>
+    </define>
+    <run>
+      <include name="All"/>
+    </run>
+  </groups>
+  
+  <classes>
+  	<class name="com.organization.automation.project.spice.mix.testng.extension.aop.spring.InitializationTests_TestSet" />
+  	<class name="com.organization.automation.project.spice.mix.testng.extension.assertions.CustomAssertUnitTests" />
+  	<class name="com.organization.automation.project.spice.mix.testng.extension.aop.spring.AspectJSpringProxyUnitTests" />
+  </classes>
+
+ </test>
+
+<parameter name="test-suite"  value="Automation Project"/>
+<parameter name="test-set_initialization-tests"  value="Initialization Tests"/>
+<parameter name="test-set_unit-tests"  value="Unit Tests on Custom Assert"/>
+<parameter name="test-set_unit-tests-aspectjspring-proxy"  value="Unit Tests on AspectJ Spring Proxy"/>
+
+</suite>
