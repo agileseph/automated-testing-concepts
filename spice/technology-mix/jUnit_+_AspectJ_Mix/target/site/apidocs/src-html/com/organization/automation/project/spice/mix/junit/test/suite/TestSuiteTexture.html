@@ -1,0 +1,131 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    /*<a name="line.1"></a>
+<FONT color="green">002</FONT>     * Copyleft 2013<a name="line.2"></a>
+<FONT color="green">003</FONT>     * <a name="line.3"></a>
+<FONT color="green">004</FONT>     * This program is free software: you can redistribute it and/or modify it under<a name="line.4"></a>
+<FONT color="green">005</FONT>     * the terms of the GNU General Public License as published by the Free Software<a name="line.5"></a>
+<FONT color="green">006</FONT>     * Foundation, either version 3 of the License, or (at your option) any later<a name="line.6"></a>
+<FONT color="green">007</FONT>     * version.<a name="line.7"></a>
+<FONT color="green">008</FONT>     * <a name="line.8"></a>
+<FONT color="green">009</FONT>     * This program is distributed in the hope that it will be useful, but WITHOUT<a name="line.9"></a>
+<FONT color="green">010</FONT>     * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS<a name="line.10"></a>
+<FONT color="green">011</FONT>     * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more<a name="line.11"></a>
+<FONT color="green">012</FONT>     * details.<a name="line.12"></a>
+<FONT color="green">013</FONT>     * <a name="line.13"></a>
+<FONT color="green">014</FONT>     * You should have received a copy of the GNU General Public License along with<a name="line.14"></a>
+<FONT color="green">015</FONT>     * this program. If not, see &lt;http://www.gnu.org/licenses/&gt;.<a name="line.15"></a>
+<FONT color="green">016</FONT>     */<a name="line.16"></a>
+<FONT color="green">017</FONT>    package com.organization.automation.project.spice.mix.junit.test.suite;<a name="line.17"></a>
+<FONT color="green">018</FONT>    <a name="line.18"></a>
+<FONT color="green">019</FONT>    import junit.framework.JUnit4TestAdapter;<a name="line.19"></a>
+<FONT color="green">020</FONT>    import junit.framework.TestResult;<a name="line.20"></a>
+<FONT color="green">021</FONT>    import junit.framework.TestSuite;<a name="line.21"></a>
+<FONT color="green">022</FONT>    import org.apache.log4j.Logger;<a name="line.22"></a>
+<FONT color="green">023</FONT>    <a name="line.23"></a>
+<FONT color="green">024</FONT>    import com.organization.automation.project.spice.mix.junit.extension.logging.TAFLoggerFactory;<a name="line.24"></a>
+<FONT color="green">025</FONT>    import com.organization.automation.project.spice.mix.junit.system.TestSystem;<a name="line.25"></a>
+<FONT color="green">026</FONT>    import com.organization.automation.project.spice.mix.junit.test.set.TestSetTexture;<a name="line.26"></a>
+<FONT color="green">027</FONT>    <a name="line.27"></a>
+<FONT color="green">028</FONT>    public class TestSuiteTexture {<a name="line.28"></a>
+<FONT color="green">029</FONT>            private static final Logger LOGGER = TAFLoggerFactory.getLogger();<a name="line.29"></a>
+<FONT color="green">030</FONT>            public static final TestSuite SUITE = new TestSuite(TestSystem.SUITE_NAME);<a name="line.30"></a>
+<FONT color="green">031</FONT>            <a name="line.31"></a>
+<FONT color="green">032</FONT>            public static boolean runTestSet(Class&lt;? extends TestSetTexture&gt; c) {<a name="line.32"></a>
+<FONT color="green">033</FONT>                    logOnSetStart(c.getName());<a name="line.33"></a>
+<FONT color="green">034</FONT>                    <a name="line.34"></a>
+<FONT color="green">035</FONT>                    TestResult result = new TestResult();<a name="line.35"></a>
+<FONT color="green">036</FONT>                    SUITE.runTest(new JUnit4TestAdapter(c), result);<a name="line.36"></a>
+<FONT color="green">037</FONT>    <a name="line.37"></a>
+<FONT color="green">038</FONT>                    logOnSetEnd(c.getName(), result.wasSuccessful(), result.runCount());<a name="line.38"></a>
+<FONT color="green">039</FONT>            <a name="line.39"></a>
+<FONT color="green">040</FONT>                    return result.wasSuccessful();<a name="line.40"></a>
+<FONT color="green">041</FONT>            }<a name="line.41"></a>
+<FONT color="green">042</FONT>            <a name="line.42"></a>
+<FONT color="green">043</FONT>            // log methods<a name="line.43"></a>
+<FONT color="green">044</FONT>            protected static void logOnSuiteStart() {<a name="line.44"></a>
+<FONT color="green">045</FONT>                    LOGGER.info("[SUITE]       ===========================================================");<a name="line.45"></a>
+<FONT color="green">046</FONT>                    LOGGER.info("[SUITE]                      Test suite: " + SUITE.getName());<a name="line.46"></a>
+<FONT color="green">047</FONT>                    LOGGER.info("[SUITE]       ===========================================================");<a name="line.47"></a>
+<FONT color="green">048</FONT>            }<a name="line.48"></a>
+<FONT color="green">049</FONT>            <a name="line.49"></a>
+<FONT color="green">050</FONT>            protected static void logOnMainSetsStart() {<a name="line.50"></a>
+<FONT color="green">051</FONT>                    //LOGGER.info("[TestSuite]   Test sets start processing...");<a name="line.51"></a>
+<FONT color="green">052</FONT>            }<a name="line.52"></a>
+<FONT color="green">053</FONT>            <a name="line.53"></a>
+<FONT color="green">054</FONT>            protected static void logOnSetStart(String nameTS) {<a name="line.54"></a>
+<FONT color="green">055</FONT>                    //LOGGER.info("[TestSuite]   Test set " + nameTS + " starts...");<a name="line.55"></a>
+<FONT color="green">056</FONT>            }<a name="line.56"></a>
+<FONT color="green">057</FONT>            <a name="line.57"></a>
+<FONT color="green">058</FONT>            protected static void logOnSetEnd(String nameTS, boolean result, int count) {<a name="line.58"></a>
+<FONT color="green">059</FONT>                    //LOGGER.info("[SUITE]       Test set " + nameTS + " has been finished.");<a name="line.59"></a>
+<FONT color="green">060</FONT>                    //LOGGER.info("[TestSuite]   Test set info: ");<a name="line.60"></a>
+<FONT color="green">061</FONT>                    //LOGGER.info("[TestSuite]                 result    = " + result);<a name="line.61"></a>
+<FONT color="green">062</FONT>                    //LOGGER.info("[TestSuite]                 TCs count = " + count);<a name="line.62"></a>
+<FONT color="green">063</FONT>                    //LOGGER.info("[TestSuite]   Test set " + TSName + " - [ " + result + " ]");<a name="line.63"></a>
+<FONT color="green">064</FONT>            }<a name="line.64"></a>
+<FONT color="green">065</FONT>    }<a name="line.65"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>

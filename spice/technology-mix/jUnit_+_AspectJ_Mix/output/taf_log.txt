@@ -1,0 +1,44 @@
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        Description: testAspectJSpringProxy_PositiveCase 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        ---------------------------------------------------------- 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                           [ PASS ] 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        Description: testAspectJSpringProxy_PositiveCaseWithConstructorParameter 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        Control points:  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST] 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] preconditions  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] init  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] setup  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] steps  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] poststeps  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] check  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        [POINT] teardown  
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                  OK 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        ---------------------------------------------------------- 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]                                                           [ PASS ] 
+[11 May 2013 PM 02:06:34.849 GMT+03:00][LOG][INFO] [TEST]        *********************************************************** 
