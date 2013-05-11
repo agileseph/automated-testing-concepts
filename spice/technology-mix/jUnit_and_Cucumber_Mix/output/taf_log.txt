@@ -1,0 +1,55 @@
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [INIT]:  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Running: com\organization\automation\project\spice\mix\bdd\cucumber\abstract_tc.feature 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [FEATURE] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Description: Developer create automation framework 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Tags:        @abstract_tc 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [NARRATIVE] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              As a Test Automation Framework developer 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              I want to use Cucumber core API 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              So that I develop a tiny test automation framework 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [SCENARIO] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Description: Abstract TC works 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [STEPS] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Given abstract test case with id "1" 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              When abstract test case run 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Then result should be "PASS" 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [SCENARIO] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Description: Abstract TC with examples works 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [STEPS] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Given abstract test case with id 1 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              And name The first TC 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              When abstract test case run 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Then result of exemplified TC should be PASS 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [SCENARIO] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Description: Abstract TC with examples works 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [STEPS] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Given abstract test case with id 2 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              And name The second TC 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              When abstract test case run 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Then result of exemplified TC should be PASS 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [SCENARIO] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Description: Abstract TC with examples works 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [STEPS] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Given abstract test case with id 3 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              And name The third TC 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              When abstract test case run 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]              Then result of exemplified TC should be PASS 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                           OK  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  [FEATURE] 
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]                                                                     [ DONE ]  
+[11 May 2013 PM 06:18:08.958 GMT+03:00][LOG][INFO]  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
