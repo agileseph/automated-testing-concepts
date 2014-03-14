@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<head>
+  <title>Build report</title>
+  <style type="text/css">
+    body
+    {
+      margin: 0px;
+      padding: 15px;
+    }
+ 
+    body, td, th
+    {
+      font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Tahoma, sans-serif;
+      font-size: 10pt;
+    }
+ 
+    th
+    {
+      text-align: left;
+    }
+ 
+    h1
+    {
+      margin-top: 0px;
+    }
+ 
+    li
+    {
+      line-height: 15pt;
+    }
+ 
+    .change-add
+    {
+      color: #272;
+    }
+ 
+    .change-delete
+    {
+      color: #722;
+    }
+ 
+    .change-edit
+    {
+      color: #247;
+    }
+ 
+    .grayed
+    {
+      color: #AAA;
+    }
+ 
+    .error
+    {
+      color: #A33;
+    }
+ 
+    pre.console
+    {
+      color: #333;
+      font-family: "Lucida Console", "Courier New";
+      padding: 5px;
+      line-height: 15px;
+      background-color: #EEE;
+      border: 1px solid #DDD;
+    }
+  </style>
+</head>
+<body>
+ 
+<h1>Build ${build.result}</h1>
+<table>
+  <tr><th>Build URL:</th><td><a href="${rooturl}${build.url}">${rooturl}${build.url}</a></td></tr>
+  <tr><th>Project:</th><td>${project.name}</td></tr>
+  <tr><th>Date of build:</th><td>${it.timestampString}</td></tr>
+  <tr><th>Build duration:</th><td>${build.durationString}</td></tr>
+</table>
+ 
+<!-- CHANGE SET -->
+<% changeSet = build.changeSet
+if (changeSet != null) {
+  hadChanges = false %>
+  <h2>Changes</h2>
+  <ul>
+<% 	changeSet.each { cs ->
+    hadChanges = true
+    aUser = cs.author %>
+      <li>Commit <b>${cs.revision}</b> by <b><%= aUser != null ? aUser.displayName : it.author.displayName %>:</b> (${cs.msg})
+        <ul>
+<%        cs.affectedFiles.each { %>
+          <li class="change-${it.editType.name}"><b>${it.editType.name}</b>: ${it.path}</li>
+<%        } %>
+        </ul>
+      </li>
+<%  }
+ 
+  if (!hadChanges) { %>	
+      <li>No Changes</li>
+<%  } %>
+  </ul>
+<% } %>
+ 
+
+<% def junitResultList = it.JUnitTestResult
+if (junitResultList.size() > 0) { %>
+  <TABLE width="100%">
+    <TR><TD class="bg1" colspan="2"><B>JUnit Tests</B></TD></TR>
+    <% it.JUnitTestResult.each{ junitResult ->
+      junitResult.getChildren().each { packageResult -> %>
+        <TR><TD class="bg2" colspan="2"> Name: ${packageResult.getName()} Failed: ${packageResult.getFailCount()} test(s), Passed: ${packageResult.getPassCount()} test(s), Skipped: ${packageResult.getSkipCount()} test(s), Total: ${packageResult.getPassCount()+packageResult.getFailCount()+packageResult.getSkipCount()} test(s)</TD></TR>
+        <% packageResult.getFailedTests().each{ failed_test -> %>
+          <TR bgcolor="white"><TD class="test_failed" colspan="2"><B><li>Failed: ${failed_test.getFullName()} </li></B></TD></TR>
+        <% }
+      }
+    }
+} %>
+  </TABLE>
+
+
+</body>

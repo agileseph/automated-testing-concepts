@@ -1,0 +1,198 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define">
+ <body style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+  <j:set var="spc" value="&amp;nbsp;&amp;nbsp;" />
+  <!-- GENERAL INFO -->
+  <table style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+   <tr>
+    <td align="right" style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     <j:choose>
+      <j:when test="${build.result=='SUCCESS'}">
+       <img src="${rooturl}static/e59dfe28/images/32x32/blue.gif">
+       </img>
+      </j:when>
+      <j:when test="${build.result=='FAILURE'}">
+       <img src="${rooturl}static/e59dfe28/images/32x32/red.gif">
+       </img>
+      </j:when>
+      <j:otherwise>
+       <img src="${rooturl}static/e59dfe28/images/32x32/yellow.gif">
+       </img>
+      </j:otherwise>
+     </j:choose>
+    </td>
+    <td valign="center" style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     <b style="font-size: 200%;">
+      BUILD ${build.result}
+     </b>
+    </td>
+   </tr>
+   <tr>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     Build URL
+    </td>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     <a href="${rooturl}${build.url}">
+      ${rooturl}${build.url}
+     </a>
+    </td>
+   </tr>
+   <tr>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     Project:
+    </td>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     ${project.name}
+    </td>
+   </tr>
+   <tr>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     Date of build:
+    </td>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     ${it.timestampString}
+    </td>
+   </tr>
+   <tr>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     Build duration:
+    </td>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     ${build.durationString}
+    </td>
+   </tr>
+
+<tr>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     Test result action:
+    </td>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     ${it.getAction('hudson.plugins.testng.TestNGTestResultBuildAction').getResult()};
+    </td>
+   </tr>
+
+<tr>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+
+    </td>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+    
+    </td>
+   </tr>
+
+
+<tr>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+     List of FAILs:
+    </td>
+    <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+    
+    </td>
+   </tr>
+
+<tr>
+  <j:set var="testngResultList" value="${it.getAction('hudson.plugins.testng.TestNGTestResultBuildAction').getResult().getFailedTests()}" />
+      <j:forEach var="failed_test" items="${testngResultList}">
+       <tr>
+        <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+          <li>
+           Failed: ${failed_test.getSafeName()}
+          </li>
+        </td>
+       </tr>
+      </j:forEach>
+</tr>
+
+
+  </table>
+  <br />
+
+  <!-- CHANGE SET -->
+  <j:set var="changeSet" value="${build.changeSet}" />
+  <j:if test="${changeSet!=null}">
+   <j:set var="hadChanges" value="false" />
+   <table width="100%" style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+    <tr>
+     <td class="bg1" colspan="2" style="font-family: Verdana, Helvetica, sans serif; font-size: 120%; color: white; background-color: #0000C0">
+      <b>
+       CHANGES
+      </b>
+     </td>
+    </tr>
+    <j:forEach var="cs" items="${changeSet}" varStatus="loop">
+     <j:set var="hadChanges" value="true" />
+     <j:set var="aUser" value="${cs.hudsonUser}" />
+     <tr>
+      <td colspan="2" class="bg2" style="font-family: Verdana, Helvetica, sans serif; font-size: 110%; color: white; background-color: #4040FF">
+       ${spc}Revision
+       <b>
+        ${cs.commitId?:cs.revision?:cs.changeNumber}
+       </b>
+       by
+       <b>
+        ${aUser!=null?aUser.displayName:cs.author.displayName}:
+       </b>
+       <b>
+        (${cs.msgAnnotated})
+       </b>
+      </td>
+     </tr>
+     <j:forEach var="p" items="${cs.affectedFiles}">
+      <tr>
+       <td width="10%" style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+        ${spc}${p.editType.name}
+       </td>
+       <td style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+        ${p.path}
+       </td>
+      </tr>
+     </j:forEach>
+    </j:forEach>
+    <j:if test="${!hadChanges}">
+     <tr>
+      <td colspan="2" style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+       No Changes
+      </td>
+     </tr>
+    </j:if>
+   </table>
+   <br />
+  </j:if>
+
+
+  <!-- JUnit TEMPLATE -->
+  <j:set var="junitResultList" value="${it.JUnitTestResult}" />
+  <j:if test="${junitResultList.isEmpty()!=true}">
+   <table width="100%" style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: black">
+    <tr>
+     <td class="bg1" colspan="2" style="font-family: Verdana, Helvetica, sans serif; font-size: 120%; color: white; background-color: #0000C0">
+      <b>
+       JUnit Tests
+      </b>
+     </td>
+    </tr>
+    <j:forEach var="junitResult" items="${it.JUnitTestResult}">
+     <j:forEach var="packageResult" items="${junitResult.getChildren()}">
+      <tr>
+       <td class="bg2" colspan="2" style="font-family: Verdana, Helvetica, sans serif; font-size: 110%; color: white; background-color: #4040FF">
+        Name: ${packageResult.getName()} Failed: ${packageResult.getFailCount()} test(s), Passed: ${packageResult.getPassCount()} test(s), Skipped: ${packageResult.getSkipCount()} test(s), Total: ${packageResult.getPassCount()+packageResult.getFailCount()+packageResult.getSkipCount()} test(s)
+       </td>
+      </tr>
+      <j:forEach var="failed_test" items="${packageResult.getFailedTests()}">
+       <tr bgcolor="white">
+        <td class="test_failed" colspan="2" style="font-family: Verdana, Helvetica, sans serif; font-size: 11px; color: red">
+         <b>
+          <li>
+           Failed: ${failed_test.getFullName()}
+          </li>
+         </b>
+        </td>
+       </tr>
+      </j:forEach>
+     </j:forEach>
+    </j:forEach>
+   </table>
+   <br />
+  </j:if>
+
+ </body>
+</j:jelly>
